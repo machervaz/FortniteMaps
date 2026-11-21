@@ -1,0 +1,5 @@
+dummy 0 bounds c=(-170,59830,1370) ext=(724,724,512)
+dummy 1 bounds c=(170,59830,1370) ext=(724,724,512)
+dummy 2 bounds c=(170,60170,1370) ext=(724,724,512)
+dummy 3 bounds c=(-170,60170,1370) ext=(724,724,512)
+TERMINE

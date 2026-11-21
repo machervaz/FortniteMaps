@@ -1,0 +1,5 @@
+FACILE : 6 lignes
+MOYEN : 6 lignes
+DIFFICILE : 6 lignes
+IMPOSSIBLE : 6 lignes
+TERMINE

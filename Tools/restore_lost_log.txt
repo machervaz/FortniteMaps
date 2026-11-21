@@ -1,0 +1,29 @@
+place occupee pour TUN_MOYEN_Cone13 par PBWA_W1_RoofS_C6
+place occupee pour TUN_MOYEN_Cone9 par PBWA_W1_RoofS_C3
+place occupee pour TUN_MOYEN_Cone23 par PBWA_W1_RoofS_C9
+place occupee pour TUN_DIFFICILE_Cone11 par PBWA_W1_StairW_C
+place occupee pour TUN_MOYEN_Cone3 par PBWA_W1_RoofS_C12
+place occupee pour TUN_FACILE_Cone5 par PBWA_W1_RoofS_C2
+place occupee pour TUN_DIFFICILE_Cone5 par PBWA_W1_StairW_C
+place occupee pour TUN_DIFFICILE_Cone20 par PBWA_W1_RoofS_C22
+place occupee pour TUN_DIFFICILE_Cone23 par PBWA_W1_RoofS_C23
+place occupee pour TUN_DIFFICILE_Cone29 par PBWA_W1_RoofS_C25
+place occupee pour TUN_DIFFICILE_Cone2 par PBWA_W1_StairW_C
+place occupee pour TUN_DIFFICILE_Cone32 par PBWA_W1_RoofS_C26
+place occupee pour TUN_MOYEN_Cone18 par PBWA_W1_RoofS_C8
+place occupee pour TUN_DIFFICILE_Cone14 par PBWA_W1_RoofS_C19
+place occupee pour TUN_FACILE_Cone16 par PBWA_W1_RoofS_C11
+existe deja : TUN_DIFFICILE_Ramp10
+existe deja : TUN_DIFFICILE_Ramp15
+existe deja : TUN_DIFFICILE_Ramp28
+existe deja : TUN_MOYEN_Ramp10
+existe deja : TUN_DIFFICILE_Ramp19
+existe deja : TUN_FACILE_Ramp10
+existe deja : TUN_MOYEN_Ramp20
+existe deja : TUN_DIFFICILE_Ramp24
+existe deja : TUN_DIFFICILE_Ramp1
+place occupee pour TUN_DIFFICILE_Ramp6 par PBWA_W1_RoofC_C10
+existe deja : TUN_MOYEN_Ramp2
+place occupee pour TUN_MOYEN_Ramp4 par PBWA_W1_RoofC_C7
+existe deja : TUN_DIFFICILE_Ramp33
+TERMINE : 0 pieces reposees

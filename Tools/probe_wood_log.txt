@@ -1,0 +1,3 @@
+Counter({('user', True): 182, ('TUN', True): 146})
+niveaux : [(0.0, 111), (1.0, 170), (2.0, 46), (3.0, 1)]
+dans DL total : 328

@@ -1,0 +1,13 @@
+AIM Circuit : Zone d'altération4 (Device_MutatorVolume_V2_C) loc=(-0,49664,1176) z=[-852..3588] taille=(5920,5920)
+AIM Launch : Zone d'altération (Device_MutatorVolume_V2_C) loc=(0,30240,1220) z=[-2192..5016] taille=(9610,9610)
+AIM Bounce : Zone d'altération2 (Device_MutatorVolume_V2_C) loc=(-0,40960,1152) z=[-2260..4948] taille=(9610,9610)
+AIM Bounce : Zone d'altération3 (Device_MutatorVolume_V2_C) loc=(-0,41168,1184) z=[-2228..4980] taille=(9610,9610)
+== Piece Control, classes :
+     668 BrickSimple_AAA_SolidWall_C
+     128 SM_FORT_Floors_Generic_BasicTile_C
+      82 PBWA_W1_Floor_C
+      58 PBWA_W1_Solid_C
+      52 PBWA_W1_RoofC_C
+      30 Pueblo_StairsW_C
+      27 PBWA_W1_StairW_C
+      14 PBWA_W1_RoofS_C

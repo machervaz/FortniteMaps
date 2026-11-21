@@ -1,0 +1,34 @@
+{
+ "FACILE": [
+  "TUN_Board_FACILE_0",
+  "TUN_Board_FACILE_1",
+  "TUN_Board_FACILE_2",
+  "TUN_Board_FACILE_3",
+  "TUN_Board_FACILE_4",
+  "TUN_Board_FACILE_5"
+ ],
+ "MOYEN": [
+  "TUN_Board_MOYEN_0",
+  "TUN_Board_MOYEN_1",
+  "TUN_Board_MOYEN_2",
+  "TUN_Board_MOYEN_3",
+  "TUN_Board_MOYEN_4",
+  "TUN_Board_MOYEN_5"
+ ],
+ "DIFFICILE": [
+  "TUN_Board_DIFFICILE_0",
+  "TUN_Board_DIFFICILE_1",
+  "TUN_Board_DIFFICILE_2",
+  "TUN_Board_DIFFICILE_3",
+  "TUN_Board_DIFFICILE_4",
+  "TUN_Board_DIFFICILE_5"
+ ],
+ "IMPOSSIBLE": [
+  "TUN_Board_IMPOSSIBLE_0",
+  "TUN_Board_IMPOSSIBLE_1",
+  "TUN_Board_IMPOSSIBLE_2",
+  "TUN_Board_IMPOSSIBLE_3",
+  "TUN_Board_IMPOSSIBLE_4",
+  "TUN_Board_IMPOSSIBLE_5"
+ ]
+}

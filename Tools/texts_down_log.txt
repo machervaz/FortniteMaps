@@ -1,0 +1,5 @@
+ZONE_1v1P_SpeedDisplay z=1884
+ZONE_1v1P_TxtDown z=1884
+ZONE_1v1P_TxtUp z=1884
+ZONE_1v1P_TxtReset z=1884
+TERMINE

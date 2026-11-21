@@ -1,0 +1,36 @@
+ZONE_1v1P_SpeedDisplay loc=<Struct 'Vector' (0x000001CD4EA3BB70) {x: -19529.000000, y: -150.000000, z: 1716.000000}> rot=<Struct 'Rotator' (0x000001CD4EA3BB70) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>
+   StaticMeshComponent0 (BaseBuildingStaticMeshComponent) c=(-19515,-150,1797) e=(14,179,81)
+   BoundingBoxComponent (BoxComponent) c=(-19529,-150,1450) e=(0,0,0)
+   EditorOnlyStaticMeshComponent (StaticMeshComponent) c=(-19529,-150,1716) e=(0,0,0)
+   ToolPickingBox (BoxComponent) c=(-19524,-150,1797) e=(6,177,79)
+   CreativePreviewOnlyMesh (CreativePreviewOnlyMesh_C) c=(-19521,-150,1798) e=(0,0,0)
+   Billboard_WidgetComp (Billboard_WidgetComp_C) c=(-19520,-150,1797) e=(1,150,62)
+   WidgetAnchor_Backface (SceneComponent) c=(-19521,-150,1797) e=(0,0,0)
+   prop TextSize=40
+   prop text=100%
+   prop Text=100%
+ZONE_1v1P_TxtDown loc=<Struct 'Vector' (0x000001CD4EA3BD50) {x: -19529.000000, y: -50.000000, z: 1711.000000}> rot=<Struct 'Rotator' (0x000001CD4EA3BD50) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>
+   StaticMeshComponent0 (BaseBuildingStaticMeshComponent) c=(-19515,-50,1792) e=(14,179,81)
+   BoundingBoxComponent (BoxComponent) c=(-19529,-50,1445) e=(0,0,0)
+   EditorOnlyStaticMeshComponent (StaticMeshComponent) c=(-19529,-50,1711) e=(0,0,0)
+   ToolPickingBox (BoxComponent) c=(-19524,-50,1792) e=(6,177,79)
+   WidgetAnchor (SceneComponent) c=(-19521,-50,1793) e=(0,0,0)
+   CreativePreviewOnlyMesh (CreativePreviewOnlyMesh_C) c=(-19521,-50,1793) e=(0,0,0)
+   NODE_AddWidgetComponent-0 (WidgetComponent) c=(-19520,-50,1793) e=(1,150,62)
+   prop TextSize=60
+   prop text=<
+   prop Text=<
+ZONE_1v1P_SkinReset loc=<Struct 'Vector' (0x000001CD4EA3BB70) {x: -19518.000000, y: 165.000000, z: 1741.000000}> rot=<Struct 'Rotator' (0x000001CD4EA3BB70) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>
+   StaticMeshComponent0 (FortStaticMeshComponent) c=(-19518,165,1741) e=(2,101,51)
+   EdRenderComp (NavLinkRenderingComponent) c=(-19518,165,1741) e=(0,0,0)
+ZONE_1v1P_TxtReset loc=<Struct 'Vector' (0x000001CD4EA3BA30) {x: -19529.000000, y: 165.000000, z: 1696.000000}> rot=<Struct 'Rotator' (0x000001CD4EA3BA30) {pitch: 0.000000, yaw: 90.000000, roll: -0.000000}>
+   StaticMeshComponent0 (BaseBuildingStaticMeshComponent) c=(-19515,165,1777) e=(14,179,81)
+   BoundingBoxComponent (BoxComponent) c=(-19529,165,1430) e=(0,0,0)
+   EditorOnlyStaticMeshComponent (StaticMeshComponent) c=(-19529,165,1696) e=(0,0,0)
+   ToolPickingBox (BoxComponent) c=(-19524,165,1777) e=(6,177,79)
+   WidgetAnchor (SceneComponent) c=(-19521,165,1778) e=(0,0,0)
+   CreativePreviewOnlyMesh (CreativePreviewOnlyMesh_C) c=(-19521,165,1778) e=(0,0,0)
+   NODE_AddWidgetComponent-0 (WidgetComponent) c=(-19520,165,1778) e=(1,150,62)
+   prop TextSize=40
+   prop text=RESET
+   prop Text=RESET

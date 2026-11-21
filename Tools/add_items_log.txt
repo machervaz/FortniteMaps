@@ -1,0 +1,2 @@
+liste trouvee sur PickupItemList (3 elements)
+ok : 2 objets

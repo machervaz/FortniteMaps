@@ -1,0 +1,8 @@
+AIM_Bounce_Return_Title : BACK TO AIM -> taille 32 centre
+TUN_MOYEN_Title : MEDIUM -> taille 40 centre
+TUN_DIFFICILE_Title : HARD -> taille 40 centre
+AIM_Circuit_Return_Title : BACK TO AIM -> taille 32 centre
+TUN_IMPOSSIBLE_Title : IMPOSSIBLE -> taille 34 centre
+AIM_Launch_Return_Title : BACK TO AIM -> taille 32 centre
+TUN_FACILE_Title : EASY -> taille 40 centre
+TERMINE

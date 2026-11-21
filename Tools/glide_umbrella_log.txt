@@ -1,0 +1,4 @@
+supprime
+supprime
+parasol : pivot z=1270, bas=1270, haut=1354, largeur=121
+TERMINE

@@ -1,0 +1,16 @@
+acteurs ZONE_ supprimes 0
+spawn fail chrono EditorActorSubsystem: Failed to convert parameter 'actor_class' when calling function 'EditorActorSubsystem.SpawnActorFromClass' on 'EditorActorSubsystem_0'
+  TypeError: NativizeProperty: Cannot nativize 'Class' as 'ActorClass' (ClassProperty)
+    TypeError: NativizeClass: Cannot nativize 'Class' as 'Class' (allowed Class type: 'Actor')
+zone_piece_control ok
+spawn fail chrono EditorActorSubsystem: Failed to convert parameter 'actor_class' when calling function 'EditorActorSubsystem.SpawnActorFromClass' on 'EditorActorSubsystem_0'
+  TypeError: NativizeProperty: Cannot nativize 'Class' as 'ActorClass' (ClassProperty)
+    TypeError: NativizeClass: Cannot nativize 'Class' as 'Class' (allowed Class type: 'Actor')
+zone_edit ok
+zone_aim ok
+zone_1v1 ok
+spawn fail manager EditorActorSubsystem: Failed to convert parameter 'actor_class' when calling function 'EditorActorSubsystem.SpawnActorFromClass' on 'EditorActorSubsystem_0'
+  TypeError: NativizeProperty: Cannot nativize 'Class' as 'ActorClass' (ClassProperty)
+    TypeError: NativizeClass: Cannot nativize 'Class' as 'Class' (allowed Class type: 'Actor')
+manager None
+TERMINE - acteurs ZONE_ : 154

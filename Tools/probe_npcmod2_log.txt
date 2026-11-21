@@ -1,0 +1,62 @@
+GameFeatureData | /CRD_AISpawner/GameFeatureData | FortGameFeatureData
+$SolarisSignatureFunctionOuter | /CRD_AISpawner/_Verse | VerseClass
+npc_spawner_device | /CRD_AISpawner/_Verse | VerseClass
+task_npc_spawner_device$SpawnAt_L_N_L_2fVerse_2eorg_2fSpatialMath_N_Rvector3_M_N_QRotation_N_Q_L_2fVerse_2eorg_2fSpatialMath_N_Rrotation_20_3d_20_2e_2e_2e_R | /CRD_AISpawner/_Verse | VerseClass
+$DebugData | /CRD_AISpawner/_Verse | VerseDebugData
+$Digest | /CRD_AISpawner/_Verse | VerseDigest
+$EpicInternalDigest | /CRD_AISpawner/_Verse | VerseDigest
+tuple_L_Kchar_M_Kfunction__parameter__transform_R | /CRD_AISpawner/_Verse | VerseStruct
+tuple_L_Kchar_M_Qnpc__character__definition_R | /CRD_AISpawner/_Verse | VerseStruct
+tuple_L_Kchar_Magent_R | /CRD_AISpawner/_Verse | VerseStruct
+tuple_L_R | /CRD_AISpawner/_Verse | VerseStruct
+tuple_Lagent_Mint_R | /CRD_AISpawner/_Verse | VerseStruct
+tuple_Lvector3_M_QRotation_N_Qrotation_20_3d_20_2e_2e_2e_R | /CRD_AISpawner/_Verse | VerseStruct
+AISpawnerExposedAssetList | /CRD_AISpawner/UEFNExposedAssets/AISpawnerExposedAssetList | FortExposedAssetList
+OverrideNPCBehaviorScriptComponent_C | /CRD_AISpawner/OverrideNPCBehaviorScriptComponent | BlueprintGeneratedClass
+NPCCharacterDefinitionComponent_C | /CRD_AISpawner/NPCCharacterDefinitionComponent | BlueprintGeneratedClass
+GameplayEvent_AI_SpawnedByRequestID | /CRD_AISpawner/GameplayEvents/GameplayEvent_AI_SpawnedByRequestID | UserDefinedStruct
+GameplayEvent_AI_Eliminated | /CRD_AISpawner/GameplayEvents/GameplayEvent_AI_Eliminated | UserDefinedStruct
+GameplayEvent_AI_Spawned | /CRD_AISpawner/GameplayEvents/GameplayEvent_AI_Spawned | UserDefinedStruct
+AISpawner_Option_ChangePatrolPathTarget | /CRD_AISpawner/Enums/AISpawner_Option_ChangePatrolPathTarget | UserDefinedEnum
+BP_AISpawnerDevice_NavPresenceComponent_C | /CRD_AISpawner/Components/BP_AISpawnerDevice_NavPresenceComponent | BlueprintGeneratedClass
+CreaturePreviewActor_C | /CRD_AISpawner/CreaturePreviewActor | BlueprintGeneratedClass
+Device_AISpawner_Base_C | /CRD_AISpawner/Device_AISpawner_Base | BlueprintGeneratedClass
+AISpawnerPreviewerComponent_C | /CRD_AISpawner/AISpawnerPreviewerComponent | BlueprintGeneratedClass
+Device_CharacterSpawner_C | /CRD_AISpawner/Device_CharacterSpawner | BlueprintGeneratedClass
+CharacterModifier_DefaultBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_DefaultBehavior | BlueprintGeneratedClass
+CharacterModifier_Health_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Health | BlueprintGeneratedClass
+GE_Sidekick_DamageImmunity_C | /CRD_AISpawner/Gameplay/GE_Sidekick_DamageImmunity | BlueprintGeneratedClass
+CharacterModifier_CosmeticSpawn_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_CosmeticSpawn | BlueprintGeneratedClass
+VerseDeviceWrapperClassMap | /CRD_AISpawner/VerseDeviceWrapperClassMap | VerseDeviceWrapperClassMap
+BP_FortPawnComponent_AICompanionProxy_C | /CRD_AISpawner/Components/BP_FortPawnComponent_AICompanionProxy | BlueprintGeneratedClass
+CP_Devices_AISpawner_Icon_EA | /CRD_AISpawner/SetupAssets/CP_Devices_AISpawner_Icon_EA | Texture2D
+CP_Devices_AISpawner_Icon_SM_EA | /CRD_AISpawner/SetupAssets/CP_Devices_AISpawner_Icon_SM_EA | Texture2D
+PID_Device_AISpawner_Character | /CRD_AISpawner/SetupAssets/PID_Device_AISpawner_Character | FortPlaysetItemDefinition
+CharacterModifier_Awareness_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Awareness | BlueprintGeneratedClass
+CharacterModifier_Effects_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Effects | BlueprintGeneratedClass
+CharacterModifier_Emotes_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Emotes | BlueprintGeneratedClass
+CharacterModifier_GuardBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardBehavior | BlueprintGeneratedClass
+CharacterModifier_GuardInventory_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardInventory | BlueprintGeneratedClass
+CharacterModifier_GuardPerception_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardPerception | BlueprintGeneratedClass
+CharacterModifier_GuardSpawn_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardSpawn | BlueprintGeneratedClass
+CharacterModifier_GuardVerseBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardVerseBehavior | BlueprintGeneratedClass
+CharacterModifier_Movement_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Movement | BlueprintGeneratedClass
+CharacterModifier_Navigation_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Navigation | BlueprintGeneratedClass
+CharacterModifier_PatrolPath_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_PatrolPath | BlueprintGeneratedClass
+CharacterModifier_Perception_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Perception | BlueprintGeneratedClass
+CharacterModifier_Physics_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Physics | BlueprintGeneratedClass
+CharacterModifier_Sequencer_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Sequencer | BlueprintGeneratedClass
+CharacterModifier_Taming_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Taming | BlueprintGeneratedClass
+CharacterModifier_Team_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Team | BlueprintGeneratedClass
+CharacterModifier_UI_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_UI | BlueprintGeneratedClass
+CharacterModifier_VerseBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_VerseBehavior | BlueprintGeneratedClass
+CharacterModifier_WildlifeBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_WildlifeBehavior | BlueprintGeneratedClass
+CharacterModifier_WildlifeSpawn_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_WildlifeSpawn | BlueprintGeneratedClass
+CharacterModifier_WildlifeVerseBehavior_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_WildlifeVerseBehavior | BlueprintGeneratedClass
+== CDO <Object '/CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Movement.Default__CharacterModifier_Movement_C' (0x0000023B9FFE99C0) Class 'CharacterModifier_Movement_C'>
+  acceleration = 20.5
+  deceleration = 20.5
+  override_fortnite_limits = False
+  run_speed = 4.099999904632568
+  sprint_speed = 5.5
+  walk_speed = 2.0

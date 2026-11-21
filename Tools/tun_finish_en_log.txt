@@ -1,0 +1,7 @@
+explosifs tunnels : ['TUN_Explosive0', 'TUN_Explosive1', 'TUN_Explosive2', 'TUN_Explosive3', 'TUN_Explosive4', 'TUN_Explosive5']
+chrono FACILE -> 11
+chrono MOYEN -> 12
+chrono DIFFICILE -> 13
+chrono IMPOSSIBLE -> 14
+panneaux traduits : 0
+TERMINE

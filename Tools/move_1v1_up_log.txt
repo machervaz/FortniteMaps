@@ -1,0 +1,4 @@
+56 acteurs montes de 266 cm
+disque z=[1336..1536]
+zone de chute z=[1190..1450] r=17000
+TERMINE

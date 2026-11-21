@@ -1,0 +1,4 @@
+PumpButton -> AIM_Pump_Button
+PumpClassOn -> AIM_Pump_ClassSelector
+PumpClassOff -> ZONE_1v1_Speed0_ClassSelector
+TERMINE

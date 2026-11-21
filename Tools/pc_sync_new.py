@@ -1,0 +1,34 @@
+# Pieces ajoutees depuis Fortnite (telephone) dans la zone Piece Control :
+#  - bois (PBWA_) -> ajoutees au Data Layer du reset (sinon le reset les casse pour de bon)
+#  - toutes -> support structurel force ; non-bois -> aucun degat
+import unreal, traceback
+TOOLS = r"C:\Users\marca\Documents\Fortnite Projects\testMoudon01\Tools"
+BOX = (20000, 34000, -12500, -500)
+eas = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+dls = unreal.get_editor_subsystem(unreal.DataLayerEditorSubsystem)
+L = []
+try:
+    dl = unreal.load_asset("/5622d7d7-d1ca-438f-8a48-1286a48e2471/Lobby/PieceControl/DL_PieceControlBuilds")
+    inst = [i for i in dls.get_all_data_layers() if i.get_asset() == dl][0]
+    wood, solid, new_wood = [], 0, 0
+    with unreal.ScopedEditorTransaction("Piece Control : nouvelles pieces"):
+        for a in eas.get_all_level_actors():
+            p = a.get_actor_location()
+            if not (BOX[0] < p.x < BOX[1] and BOX[2] < p.y < BOX[3]) or not a.get_class().get_name().startswith(("PBWA_", "BrickSimple", "SM_FORT_Floors", "Pueblo")):
+                continue
+            a.modify()
+            a.set_editor_property("forcibly_structurally_supported", True)
+            a.set_editor_property("is_spatially_loaded", False)
+            if a.get_class().get_name().startswith("PBWA_"):
+                wood.append(a)
+            else:
+                a.set_editor_property("bIsInvulnerable", True)
+                a.set_editor_property("bCanBeDamaged", False)
+                solid += 1
+        L.append("ajout bois au data layer : %s" % dls.add_actors_to_data_layer(wood, inst))
+    L.append("bois : %d, non-bois : %d" % (len(wood), solid))
+    unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
+    L.append("TERMINE")
+except Exception:
+    L.append(traceback.format_exc())
+open(TOOLS + r"\pc_sync_new_log.txt", "w").write("\n".join(L))

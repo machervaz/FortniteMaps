@@ -1,0 +1,16 @@
+  ancienne partie Edit supprimee : 0 acteurs
+ancienne partie Edit ok
+toit ok
+zones des tunnels ok
+zones Piece Control ok
+explosifs ok
+  data layer instance <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.WorldDataLayers.DataLayer_D5A09A8749BE5D8C4EA97CB18EBCB71A' (0x00000253049E9BA0) Class 'DataLayerInstanceWithAsset'>
+  pieces ajoutees au data layer : 212 True
+data layer + sequence ERREUR Traceback (most recent call last):
+  File "C:/Users/marca/Documents/Fortnite Projects/testMoudon01/Tools/edit_zone_v2.py", line 99, in step
+    fn(); log(name, "ok")
+    ^^^^
+  File "C:/Users/marca/Documents/Fortnite Projects/testMoudon01/Tools/edit_zone_v2.py", line 224, in data_layer_and_sequence
+    track = ls.add_track(unreal.MovieSceneDataLayerTrack)
+            ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'add_track'

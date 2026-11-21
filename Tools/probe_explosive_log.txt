@@ -1,0 +1,14 @@
+TUN_Explosive0 loc=<Struct 'Vector' (0x000002DAC1324330) {x: 0.000000, y: -24500.000000, z: 1870.000000}>
+   Blast Radius = 40.0
+   Structure Damage = 100000.0
+   Player Damage = 0.0
+   Visible During Game = False
+TUN_ReloadSequence loc=<Struct 'Vector' (0x000002DAC1324600) {x: 700.000000, y: -22300.000000, z: 870.000000}>
+   Sequence = <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/Tunnels/LS_TunnelReload.LS_TunnelReload' (0x000002DA80B34DE0) Class 'LevelSequence'>
+PCX_ResetExplosive loc=<Struct 'Vector' (0x000002DAC1324600) {x: 26500.000000, y: -7500.000000, z: 10676.000000}>
+   Blast Radius = 40.0
+   Structure Damage = 100000.0
+   Player Damage = 0.0
+   Visible During Game = False
+PCX_ReloadSequence loc=<Struct 'Vector' (0x000002DAC1324740) {x: 23600.000000, y: -10000.000000, z: 9476.000000}>
+   Sequence = <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/Lobby/PieceControl/LS_PieceControlReload.LS_PieceControlReload' (0x000002DAE0A5BD00) Class 'LevelSequence'>

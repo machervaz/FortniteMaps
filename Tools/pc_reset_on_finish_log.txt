@@ -1,0 +1,6 @@
+supprime PCX_ResetButton
+supprime PCX_ResetTitle
+supprime PCX_ResetDevice
+supprime PCX_ResetExplosive
+explosifs : ['PCX_ResetExplosive0', 'PCX_ResetExplosive1', 'PCX_ResetExplosive2', 'PCX_ResetExplosive3', 'PCX_ResetExplosive4', 'PCX_ResetExplosive5', 'PCX_ResetExplosive6']
+TERMINE

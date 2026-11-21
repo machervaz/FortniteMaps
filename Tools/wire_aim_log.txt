@@ -1,0 +1,6 @@
+Rifts : 10
+RiftTargets : 10
+LaunchPads : 10
+BouncePads : 7
+CircuitPath : 23
+ok

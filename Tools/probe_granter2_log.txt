@@ -1,0 +1,4 @@
+wid = <Object '/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03' (0x000001D38C85C800) Class 'FortWeaponRangedItemDefinition'>
+ItemList direct : FortMinigameItemListComponent: Property 'ItemList' for attribute 'ItemList' on 'PickupItemListComponent_C' cannot be edited on instances
+POD type <class 'PropertyOverrideData'> : <Struct 'PropertyOverrideData' (0x000001D3944CF168) {}>
+overrides n=0 first=None

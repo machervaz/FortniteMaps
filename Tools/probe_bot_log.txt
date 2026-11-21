@@ -1,0 +1,7 @@
+dojo class <Object '/Game/Environments/Asteria/Props/Dojo/Dojo_TargetDummy_A/Blueprints/Asteria_Dojo_TargetDummy_A.Asteria_Dojo_TargetDummy_A_C' (0x00000279A76D7000) Class 'BlueprintGeneratedClass'>
+is BuildingProp: True
+dojo bounds c=<Struct 'Vector' (0x00000278B8000B50) {x: 0.164879, y: 21016.629631, z: 1360.717049}> e=<Struct 'Vector' (0x0000027928B63710) {x: 54.200882, y: 64.883293, z: 90.717049}> class=Asteria_Dojo_TargetDummy_A_C
+dojo isinstance BuildingProp=True
+  comp StaticMeshComponent0 mesh avant=<Object '/Game/Creative/Sets/PropSets/Primitives/Rounds/Mesh/CP_L_Squared_Cube.CP_L_Squared_Cube' (0x00000279A875D200) Class 'StaticMesh'>
+  comp EditorOnlyStaticMeshComponent mesh avant=None
+mesh-prop bounds c=<Struct 'Vector' (0x00000279C37C2950) {x: 300.000000, y: 21000.079155, z: 1352.779312}> e=<Struct 'Vector' (0x00000279C37C1000) {x: 59.686077, y: 16.030510, z: 82.786957}>

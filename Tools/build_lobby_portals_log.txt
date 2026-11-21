@@ -1,0 +1,7 @@
+anciens elements supprimes : 82
+Aim : zone x=[1440..1560] y=[-890..-610] z=[1290..1830]
+Edit : zone x=[1440..1560] y=[-390..-110] z=[1290..1830]
+PieceControl : zone x=[1440..1560] y=[110..390] z=[1290..1830]
+1v1 : zone x=[1440..1560] y=[610..890] z=[1290..1830]
+acteurs LOBBY_Portal_ : 82
+TERMINE

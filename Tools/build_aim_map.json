@@ -1,0 +1,84 @@
+{
+ "device": "AIM_Trainer",
+ "rifts": [
+  "AIM_Hub_RiftLaunch_Zone",
+  "AIM_Hub_RiftBounce_Zone",
+  "AIM_Hub_RiftCircuit_Zone",
+  "AIM_Launch_Return_Zone",
+  "AIM_Bounce_Return_Zone",
+  "AIM_Circuit_Return_Zone",
+  "Zone d'alt\u00e9ration4",
+  "Zone d'alt\u00e9ration",
+  "Zone d'alt\u00e9ration2",
+  "Zone d'alt\u00e9ration3",
+  "AIM_Hub_RiftPump_Zone"
+ ],
+ "targets": [
+  "AIM_Launch_Arrival",
+  "AIM_Bounce_Arrival",
+  "AIM_Circuit_Arrival",
+  "ZONE_Aim_Arrival",
+  "ZONE_Aim_Arrival",
+  "ZONE_Aim_Arrival",
+  "AIM_Circuit_Arrival",
+  "AIM_Launch_Arrival",
+  "AIM_Bounce_Arrival",
+  "AIM_Bounce_Arrival",
+  "AIM_Pump_Arrival"
+ ],
+ "launch": {
+  "spawner": "AIM_Launch_Spawner",
+  "pads": [
+   "AIM_Launch_PadMark0",
+   "AIM_Launch_PadMark1",
+   "AIM_Launch_PadMark2",
+   "AIM_Launch_PadMark3",
+   "AIM_Launch_PadMark4",
+   "AIM_Launch_PadMark5",
+   "AIM_Launch_PadMark6",
+   "AIM_Launch_PadMark7",
+   "AIM_Launch_PadMark8",
+   "AIM_Launch_PadMark9"
+  ]
+ },
+ "bounce": {
+  "spawner": "AIM_Bounce_Spawner",
+  "pads": [
+   "AIM_Bounce_PadMark0",
+   "AIM_Bounce_PadMark1",
+   "AIM_Bounce_PadMark2",
+   "AIM_Bounce_PadMark3",
+   "AIM_Bounce_PadMark4",
+   "AIM_Bounce_PadMark5",
+   "AIM_Bounce_PadMark6"
+  ]
+ },
+ "circuit": {
+  "spawner": "AIM_Circuit_Spawner",
+  "path": [
+   "AIM_Circuit_Path00",
+   "AIM_Circuit_Path01",
+   "AIM_Circuit_Path02",
+   "AIM_Circuit_Path03",
+   "AIM_Circuit_Path04",
+   "AIM_Circuit_Path05",
+   "AIM_Circuit_Path06",
+   "AIM_Circuit_Path07",
+   "AIM_Circuit_Path08",
+   "AIM_Circuit_Path09",
+   "AIM_Circuit_Path10",
+   "AIM_Circuit_Path11",
+   "AIM_Circuit_Path12",
+   "AIM_Circuit_Path13",
+   "AIM_Circuit_Path14",
+   "AIM_Circuit_Path15",
+   "AIM_Circuit_Path16",
+   "AIM_Circuit_Path17",
+   "AIM_Circuit_Path18",
+   "AIM_Circuit_Path19",
+   "AIM_Circuit_Path20",
+   "AIM_Circuit_Path21",
+   "AIM_Circuit_Path22"
+  ]
+ }
+}

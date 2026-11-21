@@ -1,0 +1,262 @@
+﻿Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C Name=Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335 Archetype="/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C'/CRD_AISpawner/Device_CharacterSpawner.Default__Device_CharacterSpawner_C'" ActorFolderPath="Zones/Aim/Launch" ExportPath="/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Default__Device_CharacterSpawner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_AISpawner/Device_CharacterSpawner.Default__Device_CharacterSpawner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Default__Device_CharacterSpawner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="AttenuationOuterVis" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:AttenuationOuterVis_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AttenuationOuterVis'"
+         End Object
+         Begin Object Class=/CRD_AISpawner/OverrideNPCBehaviorScriptComponent.OverrideNPCBehaviorScriptComponent_C Name="NPCBehaviorScriptComponent" Archetype="/CRD_AISpawner/OverrideNPCBehaviorScriptComponent.OverrideNPCBehaviorScriptComponent_C'/CRD_AISpawner/Device_AISpawner_Base.Device_AISpawner_Base_C:NPCBehaviorScriptComponent_GEN_VARIABLE'" ExportPath="/CRD_AISpawner/OverrideNPCBehaviorScriptComponent.OverrideNPCBehaviorScriptComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.NPCBehaviorScriptComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.EnabledComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="HearingRangeVis" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:HearingRangeVis_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis'"
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_M_AudioPlayer_Attenuation_Max_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis.MID_M_AudioPlayer_Attenuation_Max_0'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_M_AudioPlayer_Attenuation_Max_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis.MID_M_AudioPlayer_Attenuation_Max_0.MID_M_AudioPlayer_Attenuation_Max_0EditorOnlyData'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/FortniteAI.AthenaNavPresenceDetectorComponent Name="AthenaNavPresenceDetector" Archetype="/Script/FortniteAI.AthenaNavPresenceDetectorComponent'/CRD_AISpawner/Device_AISpawner_Base.Device_AISpawner_Base_C:AthenaNavPresenceDetector_GEN_VARIABLE'" ExportPath="/Script/FortniteAI.AthenaNavPresenceDetectorComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AthenaNavPresenceDetector'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMeshMannequin" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CreativeEditOnlyMeshMannequin_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyMeshMannequin'"
+         End Object
+         Begin Object Class=/CRD_AISpawner/NPCCharacterDefinitionComponent.NPCCharacterDefinitionComponent_C Name="NPCCharacterDefinitionComponent" Archetype="/CRD_AISpawner/NPCCharacterDefinitionComponent.NPCCharacterDefinitionComponent_C'/CRD_AISpawner/Device_AISpawner_Base.Device_AISpawner_Base_C:NPCCharacterDefinitionComponent_GEN_VARIABLE'" ExportPath="/CRD_AISpawner/NPCCharacterDefinitionComponent.NPCCharacterDefinitionComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.NPCCharacterDefinitionComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeVersionComponent Name="CreativeVersion" Archetype="/Script/FortniteGame.CreativeVersionComponent'/CRD_AISpawner/Device_AISpawner_Base.Device_AISpawner_Base_C:CreativeVersion_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeVersion'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMeshSignPreviewOnly" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CreativeEditOnlyMeshSignPreviewOnly_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyMeshSignPreviewOnly'"
+         End Object
+         Begin Object Class=/Script/LiveLinkComponents.LiveLinkComponentController Name="LiveLinkComponentController" Archetype="/Script/LiveLinkComponents.LiveLinkComponentController'/CRD_AISpawner/Device_AISpawner_Base.Device_AISpawner_Base_C:LiveLinkComponentController_GEN_VARIABLE'" ExportPath="/Script/LiveLinkComponents.LiveLinkComponentController'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.LiveLinkComponentController'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="AttenuationInnerVis" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:AttenuationInnerVis_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AttenuationInnerVis'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeAttenuationVizComponent Name="CreativeAttenuationViz" Archetype="/Script/FortniteGame.CreativeAttenuationVizComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CreativeAttenuationViz_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeAttenuationVizComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeAttenuationViz'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyRadiusCylinder" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CreativeEditOnlyRadiusCylinder_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyRadiusCylinder'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C Name="CreativeEditOnlyBase" Archetype="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CreativeEditOnlyBase_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyBase'"
+         End Object
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="CharacterSkeletalMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:CharacterSkeletalMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CharacterSkeletalMesh'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortAISpawnerUtilityComponent Name="FortAISpawnerUtility" Archetype="/Script/FortniteAI.FortAISpawnerUtilityComponent'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:FortAISpawnerUtility_GEN_VARIABLE'" ExportPath="/Script/FortniteAI.FortAISpawnerUtilityComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.FortAISpawnerUtility'"
+         End Object
+         Begin Object Class=/CRD_AISpawner/AISpawnerPreviewerComponent.AISpawnerPreviewerComponent_C Name="DONT_ACCESS_AISpawnerPreviewer" Archetype="/CRD_AISpawner/AISpawnerPreviewerComponent.AISpawnerPreviewerComponent_C'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:DONT_ACCESS_AISpawnerPreviewer_GEN_VARIABLE'" ExportPath="/CRD_AISpawner/AISpawnerPreviewerComponent.AISpawnerPreviewerComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.DONT_ACCESS_AISpawnerPreviewer'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.ToyOptionsComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.StaticMeshComponent0'"
+            RelativeLocation=(X=4500.000000,Y=38500.000000,Z=1270.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="AttenuationOuterVis" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AttenuationOuterVis'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Common/Audio/AudioPlayer_Unit_Sphere_14Segs.AudioPlayer_Unit_Sphere_14Segs'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Common/Audio/Materials/M_AudioPlayer_Attenuation_Max.M_AudioPlayer_Attenuation_Max'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CreativeEditOnlyBase"
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=-0.000000)
+            bAbsoluteRotation=True
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NPCBehaviorScriptComponent" ExportPath="/CRD_AISpawner/OverrideNPCBehaviorScriptComponent.OverrideNPCBehaviorScriptComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.NPCBehaviorScriptComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="HearingRangeVis" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis'"
+            Begin Object Name="MID_M_AudioPlayer_Attenuation_Max_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis.MID_M_AudioPlayer_Attenuation_Max_0'"
+               Begin Object Name="MID_M_AudioPlayer_Attenuation_Max_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.HearingRangeVis.MID_M_AudioPlayer_Attenuation_Max_0.MID_M_AudioPlayer_Attenuation_Max_0EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Common/Audio/Materials/M_AudioPlayer_Attenuation_Max.M_AudioPlayer_Attenuation_Max'"
+               VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.000000,G=1.000000,B=0.161043,A=1.000000))
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_M_AudioPlayer_Attenuation_Max_0EditorOnlyData'"
+               LightingGuid=8E439CEE41B145E15D41788B3566C85F
+            End Object
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Common/Audio/AudioPlayer_Unit_Sphere_14Segs.AudioPlayer_Unit_Sphere_14Segs'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MID_M_AudioPlayer_Attenuation_Max_0'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CreativeEditOnlyBase"
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=-0.000000)
+            bAbsoluteRotation=True
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AthenaNavPresenceDetector" ExportPath="/Script/FortniteAI.AthenaNavPresenceDetectorComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AthenaNavPresenceDetector'"
+            NavMeshNameToUse="AthenaAI.RequiresNavmesh.Phoebe"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMeshMannequin" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyMeshMannequin'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Mannequin/Meshes/CP_Device_Mannequin_01.CP_Device_Mannequin_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/CharacterSpawner/Materials/MI_CP_Device_CharacterSpawner_01.MI_CP_Device_CharacterSpawner_01'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CreativeEditOnlyBase"
+            bAbsoluteRotation=True
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NPCCharacterDefinitionComponent" ExportPath="/CRD_AISpawner/NPCCharacterDefinitionComponent.NPCCharacterDefinitionComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.NPCCharacterDefinitionComponent'"
+            NPCCharacterDefinition="/5622d7d7-d1ca-438f-8a48-1286a48e2471/Lobby/NPC/NPC_TrainingBot.NPC_TrainingBot"
+            UserOptionData=(PropertyOverrides=((PropertyName="NPCCharacterDefinition",PropertyData="/5622d7d7-d1ca-438f-8a48-1286a48e2471/Lobby/NPC/NPC_TrainingBot.NPC_TrainingBot")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeVersion" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeVersion'"
+            LastSavedReleaseVersion=(CachedVersion=29)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.VisibleInGameComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMeshSignPreviewOnly" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyMeshSignPreviewOnly'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CreativeEditOnlyMeshMannequin"
+            bAbsoluteRotation=True
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="LiveLinkComponentController" ExportPath="/Script/LiveLinkComponents.LiveLinkComponentController'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.LiveLinkComponentController'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AttenuationInnerVis" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.AttenuationInnerVis'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Common/Audio/AudioPlayer_Unit_Sphere_14Segs.AudioPlayer_Unit_Sphere_14Segs'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Common/Audio/Materials/M_AudioPlayer_Attenuation_Min.M_AudioPlayer_Attenuation_Min'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CreativeEditOnlyBase"
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=-0.000000)
+            bAbsoluteRotation=True
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeAttenuationViz" ExportPath="/Script/FortniteGame.CreativeAttenuationVizComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeAttenuationViz'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyRadiusCylinder" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyRadiusCylinder'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/WildLife/Meshes/CP_Device_Wildlife_Cylinder01.CP_Device_Wildlife_Cylinder01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/WildLife/Materials/MI_Device_Wildlife_Cylinder01.MI_Device_Wildlife_Cylinder01'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CharacterSkeletalMesh"
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyBase" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CreativeEditOnlyBase'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="CharacterSkeletalMesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CharacterSkeletalMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.CharacterSkeletalMesh'"
+            AnimationMode=AnimationSingleNode
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            bVisible=False
+            bHiddenInGame=True
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortAISpawnerUtility" ExportPath="/Script/FortniteAI.FortAISpawnerUtilityComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.FortAISpawnerUtility'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DONT_ACCESS_AISpawnerPreviewer" ExportPath="/CRD_AISpawner/AISpawnerPreviewerComponent.AISpawnerPreviewerComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.DONT_ACCESS_AISpawnerPreviewer'"
+            ChildActorClass="/Script/Engine.BlueprintGeneratedClass'/CRD_Mannequin/SetupAssets/Character_Mannequin.Character_Mannequin_C'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_CharacterSpawner_C_UAID_88AEDD1B6F83611603_1848569335.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="AllowExceedRecommendedSpawnLimit",PropertyData="False"),(PropertyName="AllowInfiniteSpawn",PropertyData="True"),(PropertyName="DespawnAIsWhenDisabled",PropertyData="False"),(PropertyName="EnabledAtGameStart",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="AIM_Launch_Spawner"),(PropertyName="ShowSpawnRadius",PropertyData="True"),(PropertyName="SpawnCount",PropertyData="1"),(PropertyName="SpawnOnEnabled",PropertyData="True"),(PropertyName="SpawnOnTimer",PropertyData="True"),(PropertyName="SpawnRadius",PropertyData="1.000000"),(PropertyName="SpawnThroughWalls",PropertyData="True"),(PropertyName="SpawnTimer",PropertyData="3.000000"),(PropertyName="TotalSpawnLimit",PropertyData="1"),(PropertyName="UseDeviceSpawnLocation",PropertyData="True")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         HearingRangeVis="HearingRangeVis"
+         AttenuationOuterVis="AttenuationOuterVis"
+         AttenuationInnerVis="AttenuationInnerVis"
+         CreativeAttenuationViz="CreativeAttenuationViz"
+         DONT_ACCESS_AISpawnerPreviewer="DONT_ACCESS_AISpawnerPreviewer"
+         CreativeEditOnlyMeshSignPreviewOnly="CreativeEditOnlyMeshSignPreviewOnly"
+         CreativeEditOnlyMeshMannequin="CreativeEditOnlyMeshMannequin"
+         CharacterCID="/Script/FortniteGame.AthenaCharacterItemDefinition'/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_883_Athena_Commando_M_ChOneJonesy.CID_883_Athena_Commando_M_ChOneJonesy'"
+         LiveLinkComponentController="LiveLinkComponentController"
+         CreativeVersion="CreativeVersion"
+         AthenaNavPresenceDetector="AthenaNavPresenceDetector"
+         CreativeEditOnlyRadiusCylinder="CreativeEditOnlyRadiusCylinder"
+         NPCCharacterDefinitionComponent="NPCCharacterDefinitionComponent"
+         CreativeEditOnlyBase="CreativeEditOnlyBase"
+         NPCBehaviorScriptComponent="NPCBehaviorScriptComponent"
+         CharacterSkeletalMesh="CharacterSkeletalMesh"
+         FortAISpawnerUtility="FortAISpawnerUtility"
+         DependenciesAreLoaded=True
+         CurrentNavMesh="AthenaAI.RequiresNavmesh.Phoebe"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000002AA7F52F
+         LabelOverride="AIM_Launch_Spawner"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="AIM_Launch_Spawner"
+         Tags(2)="AthenaAI.RequiresNavmesh.Phoebe"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+

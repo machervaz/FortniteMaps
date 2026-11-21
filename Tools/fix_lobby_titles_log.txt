@@ -1,0 +1,53 @@
+vu : ZONE_PieceControl_Title 'PIECE CONTROL' taille 60 <TextJustify.LEFT: 0>
+vu : LOBBY_Portal_Edit_Title 'EDIT' taille 44 <TextJustify.CENTER: 1>
+vu : ZONE_PieceControl_SpotTitle1 'TUNNELS' taille 40 <TextJustify.LEFT: 0>
+vu : AIM_Bounce_Return_Title 'BACK TO AIM' taille 32 <TextJustify.CENTER: 1>
+vu : ZONE_Aim_Title 'AIM' taille 60 <TextJustify.LEFT: 0>
+vu : ZONE_Aim_ReturnTitle 'BACK TO LOBBY' taille 40 <TextJustify.LEFT: 0>
+   -> taille 30 centre
+vu : LOBBY_Portal_Aim_Title 'AIM' taille 44 <TextJustify.CENTER: 1>
+vu : ZONE_1v1_Title '1V1 BUILDFIGHT' taille 60 <TextJustify.LEFT: 0>
+vu : ZONE_PieceControl_SpotTitle2 'SIDE-JUMPS' taille 40 <TextJustify.LEFT: 0>
+vu : TUN_MOYEN_Title 'MEDIUM' taille 40 <TextJustify.CENTER: 1>
+vu : TUN_DIFFICILE_Title 'HARD' taille 40 <TextJustify.CENTER: 1>
+vu : ZONE_1v1_ReturnTitle 'BACK TO LOBBY' taille 40 <TextJustify.LEFT: 0>
+   -> taille 30 centre
+vu : ZONE_PieceControl_SpotTitle3 'RETAKES' taille 40 <TextJustify.LEFT: 0>
+vu : TUN_Title 'EDIT TUNNELS' taille 70 <TextJustify.LEFT: 0>
+vu : AIM_Circuit_Title 'CIRCUIT' taille 60 <TextJustify.CENTER: 1>
+vu : ZONE_1v1P_TxtDown '<' taille 60 <TextJustify.CENTER: 1>
+vu : LOBBY_Portal_1v1_Title '1V1' taille 44 <TextJustify.CENTER: 1>
+vu : ZONE_1v1P_TxtUp '>' taille 60 <TextJustify.CENTER: 1>
+vu : AIM_Circuit_Return_Title 'BACK TO AIM' taille 32 <TextJustify.CENTER: 1>
+vu : PCX_Couloir1_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : TUN_FACILE_FinTitle 'FINISH' taille 30 <TextJustify.LEFT: 0>
+vu : AIM_Hub_RiftBounce_Title 'BOUNCE' taille 44 <TextJustify.CENTER: 1>
+vu : ZONE_PieceControl_ChronoTitle 'TIMED RUN' taille 40 <TextJustify.LEFT: 0>
+vu : PCX_Couloir3_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : TUN_IMPOSSIBLE_Title 'IMPOSSIBLE' taille 34 <TextJustify.CENTER: 1>
+vu : TUN_DIFFICILE_FinTitle 'FINISH' taille 30 <TextJustify.LEFT: 0>
+vu : ZONE_Edit_Title 'EDIT' taille 60 <TextJustify.LEFT: 0>
+vu : PCX_Montee3_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : TUN_IMPOSSIBLE_FinTitle 'FINISH' taille 30 <TextJustify.LEFT: 0>
+vu : PCX_Descente2_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : PCX_Couloir2_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : TUN_MOYEN_FinTitle 'FINISH' taille 30 <TextJustify.LEFT: 0>
+vu : AIM_Launch_Return_Title 'BACK TO AIM' taille 32 <TextJustify.CENTER: 1>
+vu : PCX_Montee1_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : AIM_Hub_RiftCircuit_Title 'CIRCUIT' taille 44 <TextJustify.CENTER: 1>
+vu : AIM_Bounce_Title 'BOUNCE' taille 60 <TextJustify.CENTER: 1>
+vu : ZONE_PieceControl_SpotTitle0 '90s x5' taille 40 <TextJustify.LEFT: 0>
+vu : PCX_Montee2_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : AIM_Launch_Title 'LAUNCH' taille 60 <TextJustify.CENTER: 1>
+vu : PCX_Descente1_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : LOBBY_Portal_PieceControl_Title 'PIECE CONTROL' taille 26 <TextJustify.CENTER: 1>
+vu : AIM_Hub_RiftLaunch_Title 'LAUNCH' taille 44 <TextJustify.CENTER: 1>
+vu : ZONE_1v1P_TxtReset 'RESET' taille 40 <TextJustify.CENTER: 1>
+vu : PCX_Descente3_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : PCX_Montee4_FinTitle 'FINISH' taille 30 <TextJustify.CENTER: 1>
+vu : TUN_FACILE_Title 'EASY' taille 40 <TextJustify.CENTER: 1>
+vu : ZONE_PieceControl_ReturnTitle 'BACK TO LOBBY' taille 40 <TextJustify.LEFT: 0>
+   -> taille 30 centre
+vu : ZONE_Edit_ReturnTitle 'BACK TO LOBBY' taille 40 <TextJustify.LEFT: 0>
+   -> taille 30 centre
+TERMINE

@@ -1,0 +1,10 @@
+CP_Blimp_TailCone_Wing_A_NoDestroy_C | /CRP_Covert/SetupAssets/Blueprints/CP_Blimp_TailCone_Wing_A_NoDestroy
+CP_Blimp_Wing_A_NoDestroy_C | /CRP_Covert/SetupAssets/Blueprints/CP_Blimp_Wing_A_NoDestroy
+CP_Blimp_Wing_B_NoDestroy_C | /CRP_Covert/SetupAssets/Blueprints/CP_Blimp_Wing_B_NoDestroy
+CP_Doggus_Volcano_Wing_L_NoDestroy_C | /Game/Creative/BuildingActors/Props/Doggus/CP_Doggus_Volcano_Wing_L_NoDestroy
+CP_GardenParty_Umbrella_01_C | /CRP_GardenPartyHG/SetupAssets/Blueprints/CP_GardenParty_Umbrella_01
+CP_GardenParty_Umbrella_02_C | /CRP_GardenPartyHG/SetupAssets/Blueprints/CP_GardenParty_Umbrella_02
+CP_Outdoor_Umbrella_02_C | /Game/Creative/BuildingActors/Props/CP_Outdoor_Umbrella_02
+CP_P_Atmospheric_Leaves_Blowing_C | /Game/Creative/Items/Atmospheric_Particles/CP_P_Atmospheric_Leaves_Blowing
+CP_PrincessCastle_GlowingStar_C | /Game/Creative/Sets/PrincessCastle/Props/CP_PrincessCastle_GlowingStar
+CP_PrincessCastle_Umbrella_C | /Game/Creative/Sets/PrincessCastle/Props/CP_PrincessCastle_Umbrella

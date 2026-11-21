@@ -1,0 +1,6 @@
+0 FNEC_DesertCity_WaxStatue_D prop=True e=(21,41,85)
+1 FNEC_DesertCity_WaxStatue_E prop=True e=(40,49,83)
+2 FNEC_DesertCity_WaxStatue_F prop=True e=(29,35,96)
+3 FNEC_DesertCity_WaxStatue_G prop=True e=(20,33,88)
+4 CP_Minerva_Statue_01 prop=True e=(91,44,41)
+5 CP_Savepoint_Statue prop=True e=(325,286,321)

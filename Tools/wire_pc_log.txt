@@ -1,0 +1,11 @@
+chrono Couloir1 -> 1
+chrono Couloir2 -> 2
+chrono Couloir3 -> 3
+chrono Montee1 -> 4
+chrono Montee2 -> 5
+chrono Montee3 -> 6
+chrono Descente1 -> 7
+chrono Descente2 -> 8
+chrono Descente3 -> 9
+reset ok
+TERMINE

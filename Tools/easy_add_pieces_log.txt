@@ -1,0 +1,7 @@
+existant : TUN_FACILE_Wall3 PBWA_W1_Solid_C (-1536,-24832,1654) rot=0
+existant : PBWA_W1_RoofC_C17 PBWA_W1_RoofC_C (-1792,-24576,1270) rot=-90
+existant : PBWA_W1_Solid_C64 PBWA_W1_Solid_C (-1536,-25344,1654) rot=0
+pose : TUN_FACILE_EntryWall a (-1536.0, -23296.0, 1270.0)
+pose : TUN_FACILE_ConeUp2 a (-1536.0, -24832.0, 1270.0)
+data layer : True
+TERMINE

@@ -1,0 +1,14 @@
+PCX_Descente3_Chrono label=9 start=PCX_Descente3_Start finish=PCX_Descente3_Finish boards=0
+PCX_Couloir2_Chrono label=2 start=PCX_Couloir2_Start finish=PCX_Couloir2_Finish boards=0
+PCX_Descente2_Chrono label=8 start=PCX_Descente2_Start finish=PCX_Descente2_Finish boards=0
+TUN_IMPOSSIBLE_Chrono label=14 start=TUN_IMPOSSIBLE_Start finish=TUN_IMPOSSIBLE_Finish boards=6
+PCX_Couloir1_Chrono label=1 start=PCX_Couloir1_Start finish=PCX_Couloir1_Finish boards=0
+PCX_Montee2_Chrono label=5 start=PCX_Montee2_Start finish=PCX_Montee2_Finish boards=0
+TUN_MOYEN_Chrono label=12 start=TUN_MOYEN_Start finish=TUN_MOYEN_Finish boards=6
+PCX_Montee4_Chrono label=10 start=PCX_Montee4_Start finish=PCX_Montee4_Finish boards=0
+TUN_DIFFICILE_Chrono label=13 start=TUN_DIFFICILE_Start finish=TUN_DIFFICILE_Finish boards=6
+TUN_FACILE_Chrono label=11 start=TUN_FACILE_Start finish=TUN_FACILE_Finish boards=6
+PCX_Montee3_Chrono label=6 start=PCX_Montee3_Start finish=PCX_Montee3_Finish boards=0
+PCX_Couloir3_Chrono label=3 start=PCX_Couloir3_Start finish=PCX_Couloir3_Finish boards=0
+PCX_Descente1_Chrono label=7 start=PCX_Descente1_Start finish=PCX_Descente1_Finish boards=0
+PCX_Montee1_Chrono label=4 start=PCX_Montee1_Start finish=PCX_Montee1_Finish boards=0

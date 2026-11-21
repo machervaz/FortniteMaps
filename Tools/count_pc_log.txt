@@ -1,0 +1,12 @@
+  669 BrickSimple_AAA_SolidWall_C
+  128 SM_FORT_Floors_Generic_BasicTile_C
+   80 PBWA_W1_Floor_C
+   53 PBWA_W1_RoofC_C
+   47 PBWA_W1_Solid_C
+   30 Pueblo_StairsW_C
+   20 PBWA_W1_StairW_C
+    7 PBWA_W1_RoofS_C
+    3 FortStaticMeshActor
+    1 CP_L_T_Primitive_Planar_Cylinder_Solid_C
+    1 Device_MutatorVolume_V2_C
+    1 BP_Creative_Billboard_C

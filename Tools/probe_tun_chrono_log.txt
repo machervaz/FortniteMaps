@@ -1,0 +1,16 @@
+FACILE start ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+FACILE finish ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+FACILE hud ->  (Device_HUDMessage_V2_C) c=(0,0,0) e=(0,0,0)
+   holo <Struct 'Vector' (0x000002534E13F440) {x: -2250.000000, y: -34096.000000, z: 1455.000000}>
+MOYEN start ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+MOYEN finish ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+MOYEN hud ->  (Device_HUDMessage_V2_C) c=(0,0,0) e=(0,0,0)
+   holo <Struct 'Vector' (0x000002534E13F440) {x: -750.000000, y: -38192.000000, z: 1455.000000}>
+DIFFICILE start ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+DIFFICILE finish ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+DIFFICILE hud ->  (Device_HUDMessage_V2_C) c=(0,0,0) e=(0,0,0)
+   holo <Struct 'Vector' (0x000002534E13F440) {x: 750.000000, y: -42288.000000, z: 1455.000000}>
+IMPOSSIBLE start ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+IMPOSSIBLE finish ->  (Device_MutatorVolume_V2_C) c=(0,0,0) e=(0,0,0)
+IMPOSSIBLE hud ->  (Device_HUDMessage_V2_C) c=(0,0,0) e=(0,0,0)
+   holo <Struct 'Vector' (0x000002534E13F440) {x: 2250.000000, y: -46384.000000, z: 1455.000000}>

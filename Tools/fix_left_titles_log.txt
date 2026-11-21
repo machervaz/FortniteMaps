@@ -1,0 +1,15 @@
+ZONE_PieceControl_Title 'PIECE CONTROL' -> centre, taille 44
+ZONE_PieceControl_SpotTitle1 'TUNNELS' -> centre, taille 40
+ZONE_Aim_Title 'AIM' -> centre, taille 60
+ZONE_1v1_Title '1V1 BUILDFIGHT' -> centre, taille 44
+ZONE_PieceControl_SpotTitle2 'SIDE-JUMPS' -> centre, taille 36
+ZONE_PieceControl_SpotTitle3 'RETAKES' -> centre, taille 40
+TUN_Title 'EDIT TUNNELS' -> centre, taille 54
+TUN_FACILE_FinTitle 'FINISH' -> centre, taille 30
+ZONE_PieceControl_ChronoTitle 'TIMED RUN' -> centre, taille 36
+TUN_DIFFICILE_FinTitle 'FINISH' -> centre, taille 30
+ZONE_Edit_Title 'EDIT' -> centre, taille 60
+TUN_IMPOSSIBLE_FinTitle 'FINISH' -> centre, taille 30
+TUN_MOYEN_FinTitle 'FINISH' -> centre, taille 30
+ZONE_PieceControl_SpotTitle0 '90s x5' -> centre, taille 40
+TERMINE

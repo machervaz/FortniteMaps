@@ -1,0 +1,6 @@
+ZONE_1v1P_ResetExplosive Structure Damage=2000.0
+ZONE_1v1P_ResetExplosive Blast Radius=12.0
+ZONE_1v1P_ResetExplosive2 Structure Damage=2000.0
+ZONE_1v1P_ResetExplosive2 Blast Radius=12.0
+ZONE_1v1P_ResetExplosive3 Structure Damage=2000.0
+ZONE_1v1P_ResetExplosive3 Blast Radius=12.0

@@ -1,0 +1,353 @@
+# ============================================================================
+#  AIM TRAINER - zone Aim : 3 failles -> 3 exercices de tir sur de VRAIS bots
+#  Les bots sont des PNJ (NPC Spawner + definition NPC_TrainingBot, comportement
+#  vide) avec de vrais PV. Ils sont mis en stase (pas de gravite) et deplaces
+#  par Verse (TeleportTo a chaque image) :
+#   1. LANCER  (200 PV) : propulse par un matelas dans la direction de ses
+#                fleches ; s'il touche le sol il meurt ; mort -> un autre part
+#                d'un autre matelas.
+#   2. REBOND  (200 PV) : rebondit sur le meme matelas ; uniquement quand il
+#                est tue il reapparait sur un autre.
+#   3. CIRCUIT (1000 PV) : rebondit sans arret de pad en pad, en zigzag ; au bout du
+#                circuit il meurt ; mort -> un autre repart du debut.
+#  Failles : Rifts[i] (mutator zone) teleporte vers RiftTargets[i].
+# ============================================================================
+
+using { /Fortnite.com/Devices }
+using { /Fortnite.com/Characters }
+using { /Verse.org/Simulation }
+using { /Verse.org/Random }
+using { /UnrealEngine.com/Temporary/SpatialMath }
+
+aim_trainer := class(creative_device):
+
+    # ---- Failles (hub -> exercices, et retours) ----
+    @editable
+    Rifts : []mutator_zone_device = array{}
+
+    @editable
+    RiftTargets : []creative_prop = array{}
+
+    # ---- 1. Lancer ----
+    @editable
+    LaunchSpawner : npc_spawner_device = npc_spawner_device{}
+
+    @editable
+    LaunchPads : []creative_prop = array{}
+
+    # ---- 2. Rebond ----
+    @editable
+    BounceSpawner : npc_spawner_device = npc_spawner_device{}
+
+    @editable
+    BouncePads : []creative_prop = array{}
+
+    # ---- 3. Circuit ----
+    @editable
+    CircuitSpawner : npc_spawner_device = npc_spawner_device{}
+
+    # points du circuit, dans l'ordre
+    @editable
+    CircuitPath : []creative_prop = array{}
+
+    # ---- 4. Double pump ----
+    # zone qui couvre la salle : entree = donne les 2 pompes, emote = retour lobby
+    @editable
+    PumpRoom : mutator_zone_device = mutator_zone_device{}
+
+    @editable
+    PumpSpawner : npc_spawner_device = npc_spawner_device{}
+
+    # donneur d'objets : 2 pompes (vide l'inventaire avant)
+    @editable
+    PumpLoadout : item_granter_device = item_granter_device{}
+
+    # point d'arrivee du lobby (retour par emote)
+    @editable
+    LobbyPoint : creative_prop = creative_prop{}
+
+    @editable
+    PumpHealth : float = 100.0
+
+    # distance d'apparition des mannequins autour du joueur
+    @editable
+    PumpMinDistance : float = 350.0
+
+    @editable
+    PumpMaxDistance : float = 750.0
+
+    # interieur de la salle (les mannequins restent dedans)
+    @editable
+    PumpAreaMinX : float = -1300.0
+
+    @editable
+    PumpAreaMaxX : float = 1300.0
+
+    @editable
+    PumpAreaMinY : float = 58700.0
+
+    @editable
+    PumpAreaMaxY : float = 61300.0
+
+    @editable
+    PumpFloorZ : float = 1270.0
+
+    var PumpPlayers : []agent = array{}
+
+    # ---- Reglages ----
+    @editable
+    LaunchHealth : float = 200.0
+
+    @editable
+    BounceHealth : float = 200.0
+
+    @editable
+    CircuitHealth : float = 1000.0
+
+    @editable
+    LaunchApex : float = 2200.0
+
+    @editable
+    LaunchMinDistance : float = 5500.0
+
+    @editable
+    LaunchMaxDistance : float = 7500.0
+
+    @editable
+    LaunchTime : float = 4.2
+
+    # zone ou le bot peut atterrir (interieur de l'arene LANCER) : un vol trop long est raccourci
+    @editable
+    LaunchAreaMinX : float = -4500.0
+
+    @editable
+    LaunchAreaMaxX : float = 4500.0
+
+    @editable
+    LaunchAreaMinY : float = 30600.0
+
+    @editable
+    LaunchAreaMaxY : float = 38500.0
+
+    @editable
+    BounceHeight : float = 3000.0
+
+    @editable
+    BounceTime : float = 1.3
+
+    @editable
+    CircuitSpeed : float = 750.0
+
+    # hauteur des rebonds du bot du circuit (de pad en pad)
+    @editable
+    CircuitHop : float = 180.0
+
+    # hauteur du centre du personnage au-dessus de ses pieds
+    @editable
+    CharZ : float = 95.0
+
+    OnBegin<override>()<suspends> : void =
+        for (I -> Zone : Rifts):
+            Zone.AgentEntersEvent.Subscribe(rift_handler{Trainer := Self, Index := I}.OnEnter)
+        for (Pad : LaunchPads):
+            set Pad.CanBeDamaged = false
+        for (Pad : BouncePads):
+            set Pad.CanBeDamaged = false
+        for (Point : CircuitPath):
+            set Point.CanBeDamaged = false
+        LaunchSpawner.DespawnAll(false)
+        BounceSpawner.DespawnAll(false)
+        CircuitSpawner.DespawnAll(false)
+        PumpSpawner.DespawnAll(false)
+        set LobbyPoint.CanBeDamaged = false
+        PumpRoom.AgentEntersEvent.Subscribe(OnPumpEnter)
+        PumpRoom.AgentExitsEvent.Subscribe(OnPumpExit)
+        PumpRoom.AgentBeginsEmotingEvent.Subscribe(OnPumpEmote)
+        Sleep(1.0)
+        spawn{ RunLaunch() }
+        spawn{ RunBounce() }
+        spawn{ RunCircuit() }
+        spawn{ RunPump() }
+
+    # ---------------- 4. double pump ----------------
+    OnPumpEnter(Agent : agent) : void =
+        if (player[Agent]):
+            if (not PumpPlayers.Find[Agent]):
+                set PumpPlayers += array{Agent}
+            PumpLoadout.GrantItem(Agent)
+
+    OnPumpExit(Agent : agent) : void =
+        set PumpPlayers = for (Other : PumpPlayers, Other <> Agent) { Other }
+
+    # emote dans la salle -> retour au lobby
+    OnPumpEmote(Agent : agent) : void =
+        if (player[Agent]):
+            OnPumpExit(Agent)
+            if (TeleportAgentTo[Agent, LobbyPoint]) {}
+
+    # un seul mannequin a la fois, autour du joueur ; tue -> un autre apparait
+    RunPump()<suspends> : void =
+        loop:
+            if (Target := PumpPlayers[0], TargetChar := Target.GetFortCharacter[]):
+                P := TargetChar.GetTransform().Translation
+                A := GetRandomFloat(0.0, 2.0 * PiFloat)
+                D := GetRandomFloat(PumpMinDistance, PumpMaxDistance)
+                X := Clamp(P.X + Cos(A) * D, PumpAreaMinX, PumpAreaMaxX)
+                Y := Clamp(P.Y + Sin(A) * D, PumpAreaMinY, PumpAreaMaxY)
+                Yaw := ArcTan(P.Y - Y, P.X - X) * 180.0 / PiFloat
+                Rot := MakeRotationFromYawPitchRollDegrees(Yaw, 0.0, 0.0)
+                MaybeChar := SpawnBot(PumpSpawner, vector3{X := X, Y := Y, Z := PumpFloorZ}, Rot, PumpHealth)
+                if (Char := MaybeChar?):
+                    race:
+                        Char.EliminatedEvent().Await()
+                        WaitPumpEmpty()
+                    PumpSpawner.DespawnAll(false)
+                    Sleep(0.3)
+                else:
+                    Sleep(1.0)
+            else:
+                Sleep(0.5)
+
+    WaitPumpEmpty()<suspends> : void =
+        loop:
+            if (PumpPlayers.Length = 0):
+                break
+            Sleep(0.5)
+
+    UseRift(Agent : agent, Index : int) : void =
+        # joueurs seulement (les bots PNJ ne doivent pas etre teleportes)
+        if (player[Agent], Target := RiftTargets[Index], TeleportAgentTo[Agent, Target]) {}
+
+    # indice au hasard different du precedent
+    PickOther(Count : int, Previous : int) : int =
+        if (Count <= 1):
+            0
+        else:
+            I := GetRandomInt(0, Count - 2)
+            if (I >= Previous) then I + 1 else I
+
+    # fait apparaitre un bot sur Pos ; PV, stase (ni gravite ni deplacement IA)
+    SpawnBot(Spawner : npc_spawner_device, Pos : vector3, Rot : rotation, Health : float)<suspends> : ?fort_character =
+        Spawner.Reset()
+        MaybeAgent := Spawner.SpawnAt(FromVector3(Pos), ?Rotation := option{FromRotation(Rot)})
+        if (Agent := MaybeAgent?, Char := Agent.GetFortCharacter[]):
+            Char.SetMaxHealth(Health)
+            Char.SetHealth(Health)
+            Char.PutInStasis(stasis_args{AllowTurning := false, AllowFalling := false, AllowEmotes := false})
+            MoveChar(Char, Pos, Rot)
+            option{Char}
+        else:
+            false
+
+    MoveChar(Char : fort_character, P : vector3, Rot : rotation) : void =
+        if (Char.TeleportTo[vector3{X := P.X, Y := P.Y, Z := P.Z + CharZ}, Rot]) {}
+
+    # deplacement en cloche de From a To (sommet a ApexZ), mis a jour a chaque image
+    ArcChar(Char : fort_character, From : vector3, To : vector3, ApexZ : float, Duration : float, Rot : rotation)<suspends> : void =
+        H := ApexZ - (From.Z + To.Z) / 2.0
+        T0 := GetSimulationElapsedTime()
+        loop:
+            T := (GetSimulationElapsedTime() - T0) / Max(0.05, Duration)
+            if (T >= 1.0):
+                MoveChar(Char, To, Rot)
+                break
+            P := vector3{X := From.X + (To.X - From.X) * T, Y := From.Y + (To.Y - From.Y) * T, Z := From.Z + (To.Z - From.Z) * T + 4.0 * H * T * (1.0 - T)}
+            MoveChar(Char, P, Rot)
+            Sleep(0.0)
+
+    # ---------------- 1. lancer ----------------
+    # distance max dans la direction (Dx, Dy) avant de sortir de la zone d'atterrissage
+    MaxFlight(Start : vector3, Dx : float, Dy : float) : float =
+        var Best : float = 100000.0
+        if (Dx > 0.001):
+            set Best = Min(Best, (LaunchAreaMaxX - Start.X) / Dx)
+        else if (Dx < -0.001):
+            set Best = Min(Best, (LaunchAreaMinX - Start.X) / Dx)
+        if (Dy > 0.001):
+            set Best = Min(Best, (LaunchAreaMaxY - Start.Y) / Dy)
+        else if (Dy < -0.001):
+            set Best = Min(Best, (LaunchAreaMinY - Start.Y) / Dy)
+        Max(0.0, Best)
+
+    RunLaunch()<suspends> : void =
+        var PrevPad : int = -1
+        loop:
+            set PrevPad = PickOther(LaunchPads.Length, PrevPad)
+            if (Pad := LaunchPads[PrevPad]):
+                Start := Pad.GetTransform().Translation
+                Rot := Pad.GetTransform().Rotation
+                # le matelas pousse dans SA direction (fleches), devie de +/- 12 degres
+                Fwd := Rot.GetLocalForward()
+                A := GetRandomFloat(-12.0, 12.0) * PiFloat / 180.0
+                Dx := Fwd.X * Cos(A) - Fwd.Y * Sin(A)
+                Dy := Fwd.X * Sin(A) + Fwd.Y * Cos(A)
+                Dist := Min(GetRandomFloat(LaunchMinDistance, LaunchMaxDistance), MaxFlight(Start, Dx, Dy))
+                Land := vector3{X := Start.X + Dx * Dist, Y := Start.Y + Dy * Dist, Z := Start.Z}
+                MaybeChar := SpawnBot(LaunchSpawner, Start, Rot, LaunchHealth)
+                if (Char := MaybeChar?):
+                    race:
+                        Char.EliminatedEvent().Await()
+                        block:
+                            # vol raccourci par le mur -> un peu plus court en temps aussi
+                            Duration := Max(2.6, LaunchTime * Dist / ((LaunchMinDistance + LaunchMaxDistance) / 2.0))
+                            ArcChar(Char, Start, Land, Start.Z + LaunchApex, Duration, Rot)
+                            Char.Damage(100000.0)     # touche le sol -> meurt
+                            Sleep(3.0)
+                else:
+                    Sleep(1.0)
+            Sleep(0.6)
+
+    # ---------------- 2. rebond ----------------
+    RunBounce()<suspends> : void =
+        var PrevPad : int = -1
+        loop:
+            set PrevPad = PickOther(BouncePads.Length, PrevPad)
+            if (Pad := BouncePads[PrevPad]):
+                Base := Pad.GetTransform().Translation
+                Rot := Pad.GetTransform().Rotation
+                MaybeChar := SpawnBot(BounceSpawner, Base, Rot, BounceHealth)
+                if (Char := MaybeChar?):
+                    race:
+                        Char.EliminatedEvent().Await()
+                        loop:
+                            ArcChar(Char, Base, Base, Base.Z + BounceHeight, 2.0 * BounceTime, Rot)
+                else:
+                    Sleep(1.0)
+            Sleep(0.6)
+
+    # ---------------- 3. circuit ----------------
+    RunCircuit()<suspends> : void =
+        loop:
+            if (First := CircuitPath[0]):
+                Start := First.GetTransform().Translation
+                MaybeChar := SpawnBot(CircuitSpawner, Start, First.GetTransform().Rotation, CircuitHealth)
+                if (Char := MaybeChar?):
+                    race:
+                        Char.EliminatedEvent().Await()
+                        block:
+                            WalkPath(Char, Start)
+                            Char.Damage(100000.0)     # bout du circuit -> meurt
+                            Sleep(3.0)
+                else:
+                    Sleep(1.0)
+            Sleep(0.6)
+
+    WalkPath(Char : fort_character, Start : vector3)<suspends> : void =
+        var From : vector3 = Start
+        for (I := 1..CircuitPath.Length - 1, Point := CircuitPath[I]):
+            To := Point.GetTransform().Translation
+            Rot := Point.GetTransform().Rotation
+            Dz := To.Z - From.Z
+            if (Dz > 100.0):
+                # pad d'impulsion : grand saut vers l'etagere du dessus
+                ArcChar(Char, From, To, To.Z + 170.0, 0.8, Rot)
+            else:
+                # rebond de pad en pad le long de l'etagere
+                ArcChar(Char, From, To, Max(From.Z, To.Z) + CircuitHop, Max(0.35, Distance(From, To) / CircuitSpeed), Rot)
+            set From = To
+
+rift_handler := class:
+    Trainer : aim_trainer
+    Index : int
+    OnEnter(Agent : agent) : void =
+        Trainer.UseRift(Agent, Index)

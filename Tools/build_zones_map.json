@@ -1,0 +1,78 @@
+{
+ "PieceControl": {
+  "title": "PIECE CONTROL",
+  "arrival": "ZONE_PieceControl_Arrival",
+  "return_zone": "ZONE_PieceControl_ReturnZone",
+  "hud": "ZONE_PieceControl_Welcome",
+  "granter": "ZONE_PieceControl_Loadout"
+ },
+ "Edit": {
+  "title": "EDIT",
+  "arrival": "ZONE_Edit_Arrival",
+  "return_zone": "ZONE_Edit_ReturnZone",
+  "hud": "ZONE_Edit_Welcome",
+  "granter": "ZONE_Edit_Loadout"
+ },
+ "Aim": {
+  "title": "AIM",
+  "arrival": "ZONE_Aim_Arrival",
+  "return_zone": "ZONE_Aim_ReturnZone",
+  "hud": "ZONE_Aim_Welcome",
+  "granter": "ZONE_Aim_Loadout"
+ },
+ "1v1": {
+  "title": "1V1 BUILDFIGHT",
+  "arrival": "ZONE_1v1_Arrival",
+  "return_zone": "ZONE_1v1_ReturnZone",
+  "hud": "ZONE_1v1_Welcome",
+  "granter": "ZONE_1v1_Loadout"
+ },
+ "chronos": [
+  {
+   "device": null,
+   "name": "Piece Control 1",
+   "start": "ZONE_PieceControl_ChronoStart",
+   "finish": "ZONE_PieceControl_ChronoFinish",
+   "hud": "ZONE_PieceControl_ChronoHUD"
+  },
+  {
+   "device": null,
+   "name": "Edit 1",
+   "start": "ZONE_Edit_ChronoStart",
+   "finish": "ZONE_Edit_ChronoFinish",
+   "hud": "ZONE_Edit_ChronoHUD"
+  }
+ ],
+ "speed": [
+  {
+   "button": "ZONE_1v1_Speed0_Button",
+   "selector": "ZONE_1v1_Speed0_ClassSelector",
+   "designer": "ZONE_1v1_Speed0_ClassDesigner",
+   "mult": 1.0,
+   "slot": 1
+  },
+  {
+   "button": "ZONE_1v1_Speed1_Button",
+   "selector": "ZONE_1v1_Speed1_ClassSelector",
+   "designer": "ZONE_1v1_Speed1_ClassDesigner",
+   "mult": 0.75,
+   "slot": 2
+  },
+  {
+   "button": "ZONE_1v1_Speed2_Button",
+   "selector": "ZONE_1v1_Speed2_ClassSelector",
+   "designer": "ZONE_1v1_Speed2_ClassDesigner",
+   "mult": 0.5,
+   "slot": 3
+  },
+  {
+   "button": "ZONE_1v1_Speed3_Button",
+   "selector": "ZONE_1v1_Speed3_ClassSelector",
+   "designer": "ZONE_1v1_Speed3_ClassDesigner",
+   "mult": 0.25,
+   "slot": 4
+  }
+ ],
+ "lobby_point": "ZONE_LobbyPointProp",
+ "manager": null
+}

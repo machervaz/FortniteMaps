@@ -1,0 +1,9 @@
+AIM_Launch_Bot scale=<Struct 'Vector' (0x00000279C37C2950) {x: 1.150000, y: 1.150000, z: 1.150000}> bounds e=<Struct 'Vector' (0x00000279C37C1000) {x: 294.400000, y: 294.400000, z: 9.200000}>
+   StaticMeshComponent0 mesh=CP_L_Squared_Cube rel_scale=<Struct 'Vector' (0x00000279EFA779B0) {x: 1.150000, y: 1.150000, z: 1.150000}>
+   EditorOnlyStaticMeshComponent mesh=None rel_scale=<Struct 'Vector' (0x00000279EFA781B0) {x: 1.000000, y: 1.000000, z: 1.000000}>
+AIM_Bounce_Bot scale=<Struct 'Vector' (0x00000279C37C1000) {x: 1.150000, y: 1.150000, z: 1.150000}> bounds e=<Struct 'Vector' (0x00000279C367FDA0) {x: 294.400000, y: 294.400000, z: 9.200000}>
+   StaticMeshComponent0 mesh=CP_L_Squared_Cube rel_scale=<Struct 'Vector' (0x00000279F198C9B0) {x: 1.150000, y: 1.150000, z: 1.150000}>
+   EditorOnlyStaticMeshComponent mesh=None rel_scale=<Struct 'Vector' (0x00000279F198C1B0) {x: 1.000000, y: 1.000000, z: 1.000000}>
+AIM_Circuit_Bot scale=<Struct 'Vector' (0x00000279C37C2950) {x: 1.150000, y: 1.150000, z: 1.150000}> bounds e=<Struct 'Vector' (0x0000027928B63170) {x: 294.400000, y: 294.400000, z: 9.200000}>
+   StaticMeshComponent0 mesh=CP_L_Squared_Cube rel_scale=<Struct 'Vector' (0x00000279F282D9B0) {x: 1.150000, y: 1.150000, z: 1.150000}>
+   EditorOnlyStaticMeshComponent mesh=None rel_scale=<Struct 'Vector' (0x00000279F282E1B0) {x: 1.000000, y: 1.000000, z: 1.000000}>

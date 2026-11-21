@@ -1,0 +1,7 @@
+classe : /CRD_VolumetricRegion/Device_SkydiveVolume_V2.Device_SkydiveVolume_V2_C
+classe : /CRD_VolumetricRegion/UserOptions/Skydive/Device_SkydiveVolume_ClassSettingFilter.Device_SkydiveVolume_ClassSettingFilter_C
+classe : /CRD_VolumetricRegion/UserOptions/Skydive/Device_SkydiveVolume_ValidTeam_Filter.Device_SkydiveVolume_ValidTeam_Filter_C
+arene remontee de 4000
+volume de base : ext=(254,254,190) scale=<Struct 'Vector' (0x0000023BBD1E3EE0) {x: 1.000000, y: 1.000000, z: 1.000000}>
+volume : c=(0,68550,6720) ext=(3500,2750,2450)
+TERMINE

@@ -1,0 +1,4 @@
+materiaux ok
+supprime ZONE_1v1P_SkyVault
+voute centre=(-20000,0,9470) taille=(17000,17000,8500)
+TERMINE

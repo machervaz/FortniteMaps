@@ -1,0 +1,2 @@
+PumpSentries -> ['AIM_Pump_Sentry0', 'AIM_Pump_Sentry1', 'AIM_Pump_Sentry2', 'AIM_Pump_Sentry3']
+TERMINE

@@ -1,0 +1,10 @@
+lobby point (de ZONE_TrainingHubManager) : ZONE_LobbyPointProp
+Rifts : 11
+RiftTargets : 11
+PumpRoom -> AIM_Pump_Room
+PumpSpawner -> AIM_Pump_Spawner
+PumpLoadout -> AIM_Pump_Loadout
+LobbyPoint -> ZONE_LobbyPointProp
+Rifts -> ["Zone d'altération3", 'AIM_Hub_RiftPump_Zone']
+RiftTargets -> ['AIM_Bounce_Arrival', 'AIM_Pump_Arrival']
+TERMINE

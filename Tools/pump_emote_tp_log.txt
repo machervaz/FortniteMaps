@@ -1,0 +1,3 @@
+classe : /CreativeCoreDevices/Device_Teleporter_V2.Device_Teleporter_V2_C
+teleporteur pose avec /CreativeCoreDevices/Device_Teleporter_V2.Device_Teleporter_V2_C
+TERMINE

@@ -1,0 +1,4 @@
+ZONE_1v1_Speed1_ClassDesigner : ['bInfiniteBuildingResources_Override', 'bInfiniteBuildingResources', 'bInfiniteAmmo_Override', 'bInfiniteAmmo']
+ZONE_1v1_Speed0_ClassDesigner : ['bInfiniteBuildingResources_Override', 'bInfiniteBuildingResources', 'bInfiniteAmmo_Override', 'bInfiniteAmmo']
+ZONE_1v1_Speed3_ClassDesigner : ['bInfiniteBuildingResources_Override', 'bInfiniteBuildingResources', 'bInfiniteAmmo_Override', 'bInfiniteAmmo']
+ZONE_1v1_Speed2_ClassDesigner : ['bInfiniteBuildingResources_Override', 'bInfiniteBuildingResources', 'bInfiniteAmmo_Override', 'bInfiniteAmmo']

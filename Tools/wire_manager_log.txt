@@ -1,0 +1,15 @@
+script <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.VerseDevice_C_UAID_88AEDD1B6F83E01403_1744401759.training_hub_manager_0' (0x000001C8238FF3C0) Class 'training_hub_manager'>
+classe hub_portal <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.hub_portal' (0x000001C7FA1F2A00) Class 'VerseClass'>
+classe granter <Object '/CreativeCoreDevices/_Verse.item_granter_device' (0x000001C7D65F9300) Class 'VerseClass'>
+classe hud <Object '/CreativeCoreDevices/_Verse.hud_message_device' (0x000001C7D65F8F80) Class 'VerseClass'>
+portail ok PieceControl
+portail ok Edit
+portail ok Aim
+classe selector <Object '/CreativeCoreDevices/_Verse.class_and_team_selector_device' (0x000001C7D65F6900) Class 'VerseClass'>
+portail ok 1v1
+classe mutator <Object '/CRD_VolumetricRegion/_Verse.mutator_zone_device' (0x000001C7D1C0F500) Class 'VerseClass'>
+classe speed_option <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.speed_option' (0x000001C7FA1F0000) Class 'VerseClass'>
+manager relie
+chrono pose ZONE_PieceControl_Chrono <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.VerseDevice_C_UAID_88AEDD1B6F83E01403_1900624760' (0x000001C874D87800) Class 'VerseDevice_C'>
+chrono pose ZONE_Edit_Chrono <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.VerseDevice_C_UAID_88AEDD1B6F83E01403_1900641761' (0x000001C856F50000) Class 'VerseDevice_C'>
+TERMINE

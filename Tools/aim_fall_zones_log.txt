@@ -1,0 +1,5 @@
+Zone d'altération4 -> AIM_Circuit_Arrival
+Zone d'altération -> AIM_Launch_Arrival
+Zone d'altération2 -> AIM_Bounce_Arrival
+Zone d'altération3 -> AIM_Bounce_Arrival
+TERMINE

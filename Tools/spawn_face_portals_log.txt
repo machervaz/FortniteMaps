@@ -1,0 +1,2 @@
+spawner rot=<Struct 'Rotator' (0x000001CD4EA17DF0) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>
+TERMINE

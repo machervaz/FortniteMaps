@@ -1,0 +1,5 @@
+PumpSpawner -> AIM_Bounce_Spawner
+supprime AIM_Pump_Spawner
+supprime AIM_Pump_Staging
+NPC spawners restants : 3
+TERMINE

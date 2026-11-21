@@ -1,0 +1,5 @@
+execute rebuild_1v1.py
+execute build_panel.py
+execute wire_panel.py
+toujours charges : 0
+TERMINE

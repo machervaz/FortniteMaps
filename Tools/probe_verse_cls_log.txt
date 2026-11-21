@@ -1,0 +1,3 @@
+/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.aim_trainer -> None
+/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.arena_panel -> <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.arena_panel' (0x00000279A4461880) Class 'VerseClass'>
+/5622d7d7-d1ca-438f-8a48-1286a48e2471/_Verse.aim_trainer_C -> None

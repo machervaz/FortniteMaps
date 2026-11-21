@@ -1,0 +1,10 @@
+supprime PBWA_W1_RoofS_C3 (garde PBWA_W1_RoofC_C9) a (-512,-28416,1648)
+supprime PBWA_W1_RoofS_C14 (garde PBWA_W1_RoofC_C3) a (-512,-31488,1648)
+supprime PBWA_W1_RoofS_C20 (garde PBWA_W1_RoofS_C19) a (512,-30976,1264)
+supprime PBWA_W1_RoofS_C26 (garde PBWA_W1_RoofC_C56) a (512,-40192,1264)
+supprime PBWA_W1_RoofS_C28 (garde PBWA_W1_RoofS_C27) a (1536,-24832,1648)
+supprime PBWA_W1_RoofS_C33 (garde PBWA_W1_RoofS_C32) a (1536,-30464,1648)
+supprime PBWA_W1_RoofS_C38 (garde PBWA_W1_RoofC_C20) a (1536,-37632,2032)
+supprime PBWA_W1_RoofS_C40 (garde PBWA_W1_RoofC_C54) a (1536,-38656,1648)
+supprime PBWA_W1_RoofS_C43 (garde PBWA_W1_RoofS_C42) a (1536,-39168,1264)
+TERMINE : 9 supprimes

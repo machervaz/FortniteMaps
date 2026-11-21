@@ -1,0 +1,5 @@
+ZONE_1v1N_RampEdge1 x=[-20218..-19718]
+ZONE_1v1N_RampEdge-1 x=[-20218..-19718]
+ZONE_1v1N_Ramp1 x=[-20218..-19718]
+ZONE_1v1N_Ramp-1 x=[-20218..-19718]
+TERMINE

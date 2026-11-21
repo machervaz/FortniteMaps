@@ -1,0 +1,5 @@
+acteurs deplaces : 54
+classe /CRD_PropManipulationDevice/PropManipulatorControllerComponent
+classe /CRD_PropManipulationDevice/PropManipulatorControllerComponent_V2
+classe /CRD_PropManipulationDevice/PropManipulatorMgr
+classe /CRD_PropManipulationDevice/PropManipulatorMgr_V2

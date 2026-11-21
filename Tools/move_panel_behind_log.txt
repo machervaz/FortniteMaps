@@ -1,0 +1,7 @@
+27 acteurs deplaces
+ZONE_1v1P_TxtReset -> (-20362,421,1991) justif=<TextJustify.CENTER: 1>
+ZONE_1v1P_TxtDown -> (-20362,206,1991) justif=<TextJustify.CENTER: 1>
+ZONE_1v1P_TxtUp -> (-20362,6,1991) justif=<TextJustify.CENTER: 1>
+ZONE_1v1P_SpeedDisplay -> (-20362,106,1991) justif=<TextJustify.CENTER: 1>
+tableau x=[-20410..-20390] y=[-44..556] z=[1921..2211]
+TERMINE

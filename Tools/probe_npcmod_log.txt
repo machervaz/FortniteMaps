@@ -1,0 +1,19 @@
+BP B_Athena_Glider_SprocketPoppy_Modifier_C | /BRCosmetics/Athena/Cosmetics/Blueprints/Gliders/B_Athena_Glider_SprocketPoppy_Modifier
+BP BP_FortAIMovementModifier_ZeroBuild_C | /BRPlaylists/Athena/Mutator/AI/BP_FortAIMovementModifier_ZeroBuild
+BP CharacterModifier_Movement_C | /CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_Movement
+BP GAT_MovementModifier_C | /Game/Abilities/Player/Parents/GAT_MovementModifier
+BP GE_NPC_Parent_Frustration_Build_DueTo_Movement_C | /Game/Athena/AI/Abilities/NPC/Parents/GE_NPC_Parent_Frustration_Build_DueTo_Movement
+BP GE_NPC_Parent_Frustration_DueTo_Movement_C | /Game/Athena/AI/Abilities/NPC/Parents/GE_NPC_Parent_Frustration_DueTo_Movement
+BP AI_Skill_MANG_NPC_Movement_C | /Game/Athena/AI/MANG/Skillsets/AI_Skill_MANG_NPC_Movement
+BP AI_Skill_NPC_Movement_Guard_C | /Game/Athena/AI/NPCs/Base/Skillsets/Movement/AI_Skill_NPC_Movement_Guard
+BP AI_Skill_NPC_Movement_Boss_C | /Game/Athena/AI/NPCs/Bosses/AISpawnerData/Skillsets/AI_Skill_NPC_Movement_Boss
+BP AI_Skill_NPC_Movement_Tandem_C | /Game/Athena/AI/NPCs/Tandem/Base/Skillsets/AI_Skill_NPC_Movement_Tandem
+BP GE_NPC_Irwin_Shared_Frustration_Build_DueTo_Movement_C | /Irwin/AI/Shared/Abilities/GE_NPC_Irwin_Shared_Frustration_Build_DueTo_Movement
+BP GE_NPC_Irwin_Shared_Frustration_DueTo_Movement_C | /Irwin/AI/Shared/Abilities/GE_NPC_Irwin_Shared_Frustration_DueTo_Movement
+BP BP_AILODSettings_CharacterMovement_LFN_FriendlyNPC_C | /LFNNPCBase/LOD/BP_AILODSettings_CharacterMovement_LFN_FriendlyNPC
+BP CameraModifier_Athena_SunRose_Wings_Flying_C | /SunRoseFlyingGameplay/Items/Wings/Blueprints/Camera/CameraModifier_Athena_SunRose_Wings_Flying
+BP GA_WaterSlide_MovementModifier_C | /WaterSlideMaterial/Gameplay/Ability/GA_WaterSlide_MovementModifier
+Traceback (most recent call last):
+  File "C:/Users/marca/Documents/Fortnite Projects/testMoudon01/Tools/probe_npcmod.py", line 9, in <module>
+    for ad in ar.get_assets(unreal.ARFilter(package_paths=["/"], recursive_paths=True)):
+TypeError: 'NoneType' object is not iterable

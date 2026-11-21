@@ -1,0 +1,4 @@
+0 BP_Device_ClassicBouncer c=(900,19656,1745) e=(300,300,525)
+1 BP_Device_MushroomBouncer c=(300,19400,1270) e=(500,500,500)
+2 Trap_Floor_Player_LaunchPad_Figment c=(-300,19656,1434) e=(300,300,200)
+3 BP_Device_Bouncer c=(-901,19400,1270) e=(21,18,21)

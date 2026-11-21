@@ -1,0 +1,95 @@
+{
+ "courses": [
+  {
+   "name": "Couloir1",
+   "label": 1,
+   "chrono": "PCX_Couloir1_Chrono",
+   "start": "PCX_Couloir1_Start",
+   "finish": "PCX_Couloir1_Finish",
+   "hud": "PCX_Couloir1_HUD"
+  },
+  {
+   "name": "Couloir2",
+   "label": 2,
+   "chrono": "PCX_Couloir2_Chrono",
+   "start": "PCX_Couloir2_Start",
+   "finish": "PCX_Couloir2_Finish",
+   "hud": "PCX_Couloir2_HUD"
+  },
+  {
+   "name": "Couloir3",
+   "label": 3,
+   "chrono": "PCX_Couloir3_Chrono",
+   "start": "PCX_Couloir3_Start",
+   "finish": "PCX_Couloir3_Finish",
+   "hud": "PCX_Couloir3_HUD"
+  },
+  {
+   "name": "Descente1",
+   "label": 7,
+   "chrono": "PCX_Descente1_Chrono",
+   "start": "PCX_Descente1_Start",
+   "finish": "PCX_Descente1_Finish",
+   "hud": "PCX_Descente1_HUD"
+  },
+  {
+   "name": "Descente2",
+   "label": 8,
+   "chrono": "PCX_Descente2_Chrono",
+   "start": "PCX_Descente2_Start",
+   "finish": "PCX_Descente2_Finish",
+   "hud": "PCX_Descente2_HUD"
+  },
+  {
+   "name": "Descente3",
+   "label": 9,
+   "chrono": "PCX_Descente3_Chrono",
+   "start": "PCX_Descente3_Start",
+   "finish": "PCX_Descente3_Finish",
+   "hud": "PCX_Descente3_HUD"
+  },
+  {
+   "name": "Montee1",
+   "label": 4,
+   "chrono": "PCX_Montee1_Chrono",
+   "start": "PCX_Montee1_Start",
+   "finish": "PCX_Montee1_Finish",
+   "hud": "PCX_Montee1_HUD"
+  },
+  {
+   "name": "Montee2",
+   "label": 5,
+   "chrono": "PCX_Montee2_Chrono",
+   "start": "PCX_Montee2_Start",
+   "finish": "PCX_Montee2_Finish",
+   "hud": "PCX_Montee2_HUD"
+  },
+  {
+   "name": "Montee3",
+   "label": 6,
+   "chrono": "PCX_Montee3_Chrono",
+   "start": "PCX_Montee3_Start",
+   "finish": "PCX_Montee3_Finish",
+   "hud": "PCX_Montee3_HUD"
+  },
+  {
+   "name": "Montee4",
+   "label": 10,
+   "chrono": "PCX_Montee4_Chrono",
+   "start": "PCX_Montee4_Start",
+   "finish": "PCX_Montee4_Finish",
+   "hud": "PCX_Montee4_HUD"
+  }
+ ],
+ "arrival": "ZONE_PieceControl_Arrival",
+ "seq": "PCX_ReloadSequence",
+ "explosives": [
+  "PCX_ResetExplosive0",
+  "PCX_ResetExplosive1",
+  "PCX_ResetExplosive2",
+  "PCX_ResetExplosive3",
+  "PCX_ResetExplosive4",
+  "PCX_ResetExplosive5",
+  "PCX_ResetExplosive6"
+ ]
+}

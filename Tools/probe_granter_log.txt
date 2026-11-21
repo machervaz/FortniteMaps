@@ -1,0 +1,45 @@
+== Device_ItemGranter_V2_C_UAID_88AEDD1B6F83E01403_1694552698 (Device_ItemGranter_V2_C)
+   no_ranged_weapon_collision = False
+   no_weapon_collision = False
+   weapon_response_type = <FortBaseWeaponDamage.ENVIRONMENTAL: 1>
+== StaticMeshComponent0 (BaseBuildingStaticMeshComponent)
+   material_cache_tile_count = <Struct 'IntPoint' (0x000001D3B17CE708) {x: 8, y: 8}>
+== BoundingBoxComponent (BoxComponent)
+== EditorOnlyStaticMeshComponent (StaticMeshComponent)
+   material_cache_tile_count = <Struct 'IntPoint' (0x000001D3B17CEF08) {x: 8, y: 8}>
+== ToyOptionsComponent (ToyOptionsComponent_C)
+== FortMinigameProgress (FortMinigameProgressComponent)
+== VisibleInGameComponent (Creative_VisibleInGame_Component_C)
+== DropBox (BoxComponent)
+== LightRays (StaticMeshComponent)
+   material_cache_tile_count = <Struct 'IntPoint' (0x000001D390F6C708) {x: 8, y: 8}>
+== PointLight (PointLightComponent)
+== BillboardComponent_2 (BillboardComponent)
+== PreviewMeshScene (SceneComponent)
+== PreviewStaticMesh (StaticMeshComponent)
+   material_cache_tile_count = <Struct 'IntPoint' (0x000001D390F6AF08) {x: 8, y: 8}>
+== PreviewSkeletalMesh (SkeletalMeshComponent)
+== Holo Loop Cue (AudioComponent)
+== BillboardComponent_3 (BillboardComponent)
+== EnableWhenReceived (FortGameplayReceiverMessageComponent)
+== DisableWhenReceived (FortGameplayReceiverMessageComponent)
+== GrantItemWhenReceived (FortGameplayReceiverMessageComponent)
+== PreviousItemWhenReceived (FortGameplayReceiverMessageComponent)
+== NextItemWhenReceived (FortGameplayReceiverMessageComponent)
+== RandomItemWhenReceived (FortGameplayReceiverMessageComponent)
+== PickupItemList (PickupItemListComponent_C)
+   allow_item_customization = False
+   allow_item_tracking = False
+   allow_new_item_variants = True
+   enable_item_templates = True
+   should_register_new_item_variants = True
+== RestockItemsWhenReceived (FortGameplayReceiverMessageComponent)
+== WhenItemGrantedTrigger (FortGameplayTriggerMessageComponent)
+== Creative_ItemPreview_Component (Creative_ItemPreview_Component_C)
+== FortCreativePersistenceComponentBase (FortCreativePersistenceComponentBase)
+== ClearSaveDataWhenReceived (FortGameplayReceiverMessageComponent)
+== ItemVariantNotifier (FortCreativeItemVariantNotifierComponent)
+   on_item_template_changed = <Multicast delegate 'CreativeItemTemplateChanged' (0x000001D3B2EC4010) <Unbound>>
+   on_item_template_disabled = <Multicast delegate 'CreativeItemTemplateChanged' (0x000001D3B2EC4000) <Unbound>>
+   on_item_template_enabled = <Multicast delegate 'CreativeItemTemplateChanged' (0x000001D3B2EC3FF0) <Unbound>>
+== Creative_UseRestriction_Component (Creative_UseRestriction_Component_C)

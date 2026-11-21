@@ -1,0 +1,2 @@
+comp.NPCCharacterDefinition = None
+   -> set ok : <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/Lobby/NPC/NPC_TrainingBot.NPC_TrainingBot' (0x000002DAEB877D00) Class 'NPCCharacterDefinition'>

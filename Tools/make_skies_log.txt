@@ -1,0 +1,1 @@
+ok ['ZONE_1v1P_SkyDomeViolet', 'ZONE_1v1P_SkyDomeJour', 'ZONE_1v1P_SkyDomeNuit', 'ZONE_1v1P_SkyDomeRose']

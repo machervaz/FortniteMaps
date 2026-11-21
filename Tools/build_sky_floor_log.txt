@@ -1,0 +1,4 @@
+supprime ZONE_1v1P_SkyFloor
+sol centre=(-20000,0,1185) taille=(17000,17000,15)
+zone centre=(-20000,0,1222) taille=(17000,17000,32)
+TERMINE

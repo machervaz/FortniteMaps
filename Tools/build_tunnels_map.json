@@ -1,0 +1,46 @@
+{
+ "tunnels": [
+  {
+   "name": "FACILE",
+   "start": "TUN_FACILE_Start",
+   "finish": "TUN_FACILE_Finish",
+   "hud": "TUN_FACILE_HUD",
+   "x": -1536.0,
+   "edits": 13
+  },
+  {
+   "name": "MOYEN",
+   "start": "TUN_MOYEN_Start",
+   "finish": "TUN_MOYEN_Finish",
+   "hud": "TUN_MOYEN_HUD",
+   "x": -512.0,
+   "edits": 33
+  },
+  {
+   "name": "DIFFICILE",
+   "start": "TUN_DIFFICILE_Start",
+   "finish": "TUN_DIFFICILE_Finish",
+   "hud": "TUN_DIFFICILE_HUD",
+   "x": 512.0,
+   "edits": 64
+  },
+  {
+   "name": "IMPOSSIBLE",
+   "start": "TUN_IMPOSSIBLE_Start",
+   "finish": "TUN_IMPOSSIBLE_Finish",
+   "hud": "TUN_IMPOSSIBLE_HUD",
+   "x": 1536.0,
+   "edits": 76
+  }
+ ],
+ "return_pad": "TUN_ReturnPad",
+ "round_settings": "TUN_RoundSettings",
+ "explosives": [
+  "TUN_Explosive0",
+  "TUN_Explosive1",
+  "TUN_Explosive2",
+  "TUN_Explosive3",
+  "TUN_Explosive4",
+  "TUN_Explosive5"
+ ]
+}

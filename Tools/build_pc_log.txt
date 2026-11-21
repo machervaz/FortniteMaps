@@ -1,0 +1,5 @@
+anciens PCX_ supprimes : 0
+pieces du joueur : 907
+ajout au data layer : True
+sequence posee via : Sequence
+TERMINE

@@ -1,0 +1,2 @@
+offset=(0,-10,19) ext=(19,10,19)
+voute rot=<Struct 'Rotator' (0x0000024AE9DC4740) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}> scale=<Struct 'Vector' (0x0000024AE9DC4290) {x: 418.975895, y: 837.943754, z: 209.486943}>

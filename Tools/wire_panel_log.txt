@@ -1,0 +1,2 @@
+formes : ['ZONE_1v1P_ShapeReset', 'ZONE_1v1P_ShapeSky0', 'ZONE_1v1P_ShapeSky1', 'ZONE_1v1P_ShapeSky2', 'ZONE_1v1P_ShapeSky3', 'ZONE_1v1P_ShapeSpeedDown', 'ZONE_1v1P_ShapeSpeedUp']
+ok

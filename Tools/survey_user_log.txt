@@ -1,0 +1,58 @@
+case (2, -1) : 865 acteurs  x[21248..29952] y[-9984..-1280] z[4992..14592]
+      562  BrickSimple_AAA_SolidWall_C
+       89  SM_FORT_Floors_Generic_BasicTile_C
+       80  PBWA_W1_Floor_C
+       53  PBWA_W1_RoofC_C
+       32  PBWA_W1_Solid_C
+       30  Pueblo_StairsW_C
+       15  PBWA_W1_StairW_C
+        4  PBWA_W1_RoofS_C
+case (3, -1) : 121 acteurs  x[30208..33024] y[-9984..-7424] z[10368..11136]
+       79  BrickSimple_AAA_SolidWall_C
+       18  SM_FORT_Floors_Generic_BasicTile_C
+       15  PBWA_W1_Solid_C
+        5  PBWA_W1_StairW_C
+        4  PBWA_W1_RoofS_C
+case (2, -2) : 49 acteurs  x[21760..25856] y[-11520..-10240] z[10368..10752]
+       28  BrickSimple_AAA_SolidWall_C
+       21  SM_FORT_Floors_Generic_BasicTile_C
+case (0, 0) : 34 acteurs  x[0..0] y[0..0] z[-52..1104]
+       12  PBWA_W1_Solid_C
+        7  PBWA_W1_StairW_C
+        5  PBWA_W1_RoofS_C
+        2  PBWA_W1_Floor_C
+        1  WorldDataLayers
+        1  Device_ExperienceSettings_V2_UEFN_C
+        1  WorldPartitionMiniMap
+        1  LevelBounds
+        1  VK_Waterbody_Ocean_Parent_C
+        1  FortStaticMeshActor
+        1  WaterZone
+        1  PBWA_W1_RoofC_C
+case (0, 1) : 16 acteurs  x[5632..8448] y[14080..15610] z[1152..1160]
+        1  FortPlaysetRoot
+        1  BP_Dirt_Temp_Solid_C
+        1  BP_Grass_Temp_Dirt_Outer_C
+        1  BP_Grass_Temp_Dirt_d1_C
+        1  BP_Grass_Temp_Dirt_Straight_SM_C
+        1  BP_Grass_Temp_Dirt_InnerCorner_C
+        1  BP_Grass_Temp_Dirt_b_C
+        1  BP_Grass_Temp_Dirt_Straight_c_C
+        1  BP_Grass_Temp_Dirt_a_C
+        1  BP_Grass_Temp_Dirt_Straight_a_C
+        1  BP_Grass_Temp_Dirt_d2_C
+        1  BP_Grass_Temp_Dirt_Straight_b_C
+case (0, -1) : 1 acteurs  x[0..0] y[-0..-0] z[1152..1152]
+        1  FortStaticMeshActor
+case (-6, 4) : 1 acteurs  x[-50480..-50480] y[48092..48092] z[6177..6177]
+        1  FortInspectorCameraCreative
+case (-6, -4) : 1 acteurs  x[-50480..-50480] y[-35620..-35620] z[6177..6177]
+        1  FortInspectorCameraCreative
+case (6, -7) : 1 acteurs  x[60160..60160] y[-60161..-60161] z[1152..1152]
+        1  FortStaticMeshActor
+case (-1, -7) : 1 acteurs  x[-0..-0] y[-60160..-60160] z[1152..1152]
+        1  FortStaticMeshActor
+case (6, -1) : 1 acteurs  x[60160..60160] y[-1..-1] z[1256..1256]
+        1  FortStaticMeshActor
+case (-1, 0) : 1 acteurs  x[-1496..-1496] y[3..3] z[1386..1386]
+        1  FortPlayerStartCreative

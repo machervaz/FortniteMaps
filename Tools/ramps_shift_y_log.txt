@@ -1,0 +1,5 @@
+ZONE_1v1N_RampEdge1 y=[752..768]
+ZONE_1v1N_RampEdge-1 y=[-256..-240]
+ZONE_1v1N_Ramp1 y=[256..782]
+ZONE_1v1N_Ramp-1 y=[-270..256]
+TERMINE

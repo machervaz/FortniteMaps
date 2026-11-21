@@ -1,0 +1,3 @@
+PumpUp -> ['AIM_Pump_Up0', 'AIM_Pump_Up1', 'AIM_Pump_Up2', 'AIM_Pump_Up3']
+PumpDown -> ['AIM_Pump_Down0', 'AIM_Pump_Down1', 'AIM_Pump_Down2', 'AIM_Pump_Down3']
+TERMINE

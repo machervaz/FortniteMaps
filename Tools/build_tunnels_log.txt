@@ -1,0 +1,6 @@
+acteurs supprimes 986
+FACILE cases 20 editions 13 longueur 108 m niveau max 1
+MOYEN cases 28 editions 33 longueur 148 m niveau max 2
+DIFFICILE cases 36 editions 64 longueur 189 m niveau max 1
+IMPOSSIBLE cases 44 editions 76 longueur 230 m niveau max 2
+TERMINE - acteurs TUN_ : 939

@@ -1,0 +1,30 @@
+{
+ "down": "ZONE_1v1P_PMSpeedDown",
+ "up": "ZONE_1v1P_PMSpeedUp",
+ "display": "ZONE_1v1P_SpeedDisplay",
+ "reset": "ZONE_1v1P_PMReset",
+ "explosive": "ZONE_1v1P_ResetExplosive",
+ "sky": "ZONE_1v1P_Sky",
+ "sky_shapes": [
+  "ZONE_1v1P_PMSky0",
+  "ZONE_1v1P_PMSky1",
+  "ZONE_1v1P_PMSky2",
+  "ZONE_1v1P_PMSky3"
+ ],
+ "panel": "ZONE_1v1P_PanelDevice",
+ "selectors": [
+  "ZONE_1v1_Speed0_ClassSelector",
+  "ZONE_1v1_Speed1_ClassSelector",
+  "ZONE_1v1_Speed2_ClassSelector",
+  "ZONE_1v1_Speed3_ClassSelector"
+ ],
+ "explosives": [
+  "ZONE_1v1P_ResetExplosive",
+  "ZONE_1v1P_ResetExplosive2",
+  "ZONE_1v1P_ResetExplosive3"
+ ],
+ "sky_vault": "ZONE_1v1P_SkyVault",
+ "sky_floor": "ZONE_1v1P_SkyFloor",
+ "fall_zone": "ZONE_1v1P_FallZone",
+ "respawn": "ZONE_1v1P_RespawnMark"
+}

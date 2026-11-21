@@ -1,0 +1,3 @@
+copie ZONE_1v1_Speed0_ClassDesigner -> AIM_Pump_ClassDesigner
+copie ZONE_1v1_Speed0_ClassSelector -> AIM_Pump_ClassSelector
+TERMINE

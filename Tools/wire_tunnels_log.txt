@@ -1,0 +1,4 @@
+ok TUN_FACILE_Chrono
+ok TUN_MOYEN_Chrono
+ok TUN_DIFFICILE_Chrono
+ok TUN_IMPOSSIBLE_Chrono

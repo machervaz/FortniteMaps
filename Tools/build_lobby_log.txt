@@ -1,0 +1,16 @@
+acteurs supprimes 71
+materiaux ok
+piece ok
+LED ok
+mutator bounds PieceControl <Struct 'Vector' (0x000001C83B79CB50) {x: 1200.000000, y: 0.000000, z: 1462.000000}> <Struct 'Vector' (0x000001C83B79C880) {x: 384.384003, y: 384.384003, z: 288.288002}>
+mutator after PieceControl <Struct 'Vector' (0x000001C83B79CB50) {x: 1200.000000, y: 0.000000, z: 1490.000000}> <Struct 'Vector' (0x000001C83B79DD20) {x: 150.000000, y: 150.000000, z: 200.000000}>
+mutator bounds Edit <Struct 'Vector' (0x000001C83B79CAB0) {x: 0.000000, y: -1200.000000, z: 1462.000000}> <Struct 'Vector' (0x000001C83B79DE10) {x: 384.384003, y: 384.384003, z: 288.288002}>
+mutator after Edit <Struct 'Vector' (0x000001C83B79C880) {x: 0.000000, y: -1200.000000, z: 1490.000000}> <Struct 'Vector' (0x000001C83B79CAB0) {x: 150.000000, y: 150.000000, z: 200.000000}>
+mutator bounds Aim <Struct 'Vector' (0x000001C83B79DCD0) {x: 0.000000, y: 1200.000000, z: 1462.000000}> <Struct 'Vector' (0x000001C83B79DD70) {x: 384.384003, y: 384.384003, z: 288.288002}>
+mutator after Aim <Struct 'Vector' (0x000001C83B79DE10) {x: 0.000000, y: 1200.000000, z: 1490.000000}> <Struct 'Vector' (0x000001C83B79DCD0) {x: 150.000000, y: 150.000000, z: 200.000000}>
+mutator bounds 1v1 <Struct 'Vector' (0x000001C83B79D5F0) {x: -1200.000000, y: 0.000000, z: 1462.000000}> <Struct 'Vector' (0x000001C83B79DDC0) {x: 384.384003, y: 384.384003, z: 288.288002}>
+mutator after 1v1 <Struct 'Vector' (0x000001C83B79DD70) {x: -1200.000000, y: 0.000000, z: 1490.000000}> <Struct 'Vector' (0x000001C83B79D5F0) {x: 150.000000, y: 150.000000, z: 200.000000}>
+portails ok
+postprocess ok
+sauvegarde ok
+TERMINE - acteurs LOBBY_ : 71

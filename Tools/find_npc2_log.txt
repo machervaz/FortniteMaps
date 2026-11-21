@@ -1,0 +1,2 @@
+/CRD_AISpawner/Device_CharacterSpawner.Device_CharacterSpawner_C
+/FortniteCoreDebugCommands/DebugCommands/NPC/Models/BP_DebugCommandModel_NPC_SpawnTestPlayers.BP_DebugCommandModel_NPC_SpawnTestPlayers_C
