@@ -1,0 +1,4 @@
+a supprimer : 84
+retire des data layers : True
+destroy ok : 84
+restantes : 84

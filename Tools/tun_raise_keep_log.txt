@@ -1,12 +1,10 @@
 ajout bois au data layer : True
-deplaces : 1089, bois (reset) : 326, autres pieces indestructibles : 9
+deplaces : 1076, bois (reset) : 312, autres pieces indestructibles : 9
 pieces ajoutees par le joueur (hors TUN_) :
-     57 PBWA_W1_RoofC_C
-     45 PBWA_W1_RoofS_C
-     28 PBWA_W1_StairW_C
-     24 PBWA_W1_Floor_C
-     14 PBWA_W1_Solid_C
-     11 PBWA_W1_WindowC_C
-      2 PBWA_W1_WindowSide_C
-      1 PBWA_W1_StairF_C
+    127 PBWA_W1_Solid_C
+     56 PBWA_W1_StairW_C
+     47 PBWA_W1_RoofC_C
+     45 PBWA_W1_Floor_C
+     37 PBWA_W1_RoofS_C
+      1 Device_MutatorVolume_V2_C
 TERMINE

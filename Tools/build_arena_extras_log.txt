@@ -1,0 +1,1 @@
+OK <Object '/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.VerseDevice_C_UAID_88AEDD1B6F83B21703_1633940511' (0x0000022711D80000) Class 'VerseDevice_C'>

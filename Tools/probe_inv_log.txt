@@ -1,0 +1,8 @@
+bIsInvulnerable=False
+is_invulnerable=False
+b_is_invulnerable ERR BuildingFloor: Failed to find property 'b_is_invulnerable' for attribute 'b_is_i
+bCanBeDamaged=False
+can_be_damaged=False
+b_can_be_damaged ERR BuildingFloor: Failed to find property 'b_can_be_damaged' for attribute 'b_can_b
+set is_invulnerable ok -> False
+['can_be_damaged', 'damaged_but_not_animating_material_mappings', 'damager_owner', 'does_mutator_block_incoming_damage', 'does_mutator_block_incoming_damage_with_tags', 'force_damage_ping', 'handle_custom_impulse_from_damage', 'is_damaged', 'is_invulnerable', 'modify_incoming_damage_for_building_actor_attached_to_me', 'on_damage_play_effects', 'on_damage_server', 'on_damaged', 'on_take_any_damage', 'on_take_point_damage', 'on_take_radial_damage', 'receive_any_damage', 'receive_point_damage', 'receive_radial_damage', 'should_display_damage_numbers', 'show_damage_cracks']

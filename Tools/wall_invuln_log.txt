@@ -1,0 +1,20 @@
+Poseur d'objet21 BP_ItemContainer_C -> False
+Poseur d'objet22 BP_ItemContainer_C -> False
+Poseur d'objet26 BP_ItemContainer_C -> False
+Poseur d'objet15 BP_ItemContainer_C -> False
+Poseur d'objet25 BP_ItemContainer_C -> False
+Poseur d'objet27 BP_ItemContainer_C -> False
+Poseur d'objet24 BP_ItemContainer_C -> False
+Poseur d'objet29 BP_ItemContainer_C -> False
+Poseur d'objet17 BP_ItemContainer_C -> False
+Poseur d'objet18 BP_ItemContainer_C -> False
+Poseur d'objet14 BP_ItemContainer_C -> False
+Poseur d'objet11 BP_ItemContainer_C -> False
+Poseur d'objet20 BP_ItemContainer_C -> False
+CP_Glass_Floor3 CP_Glass_Floor_C -> False
+Poseur d'objet28 BP_ItemContainer_C -> False
+Poseur d'objet16 BP_ItemContainer_C -> False
+Poseur d'objet13 BP_ItemContainer_C -> False
+Poseur d'objet12 BP_ItemContainer_C -> False
+Poseur d'objet19 BP_ItemContainer_C -> False
+TERMINE

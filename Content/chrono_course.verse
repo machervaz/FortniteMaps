@@ -21,6 +21,14 @@ ChronoText<localizes>(Course : string, Time : string, Best : string) : message =
 LeaderLine<localizes>(Rank : int, Who : agent, Time : string) : message = "{Rank}. {Who}  {Time}"
 EmptyLine<localizes>(Rank : int) : message = "{Rank}.  ---"
 LeaderTitle<localizes>(Course : string) : message = "TOP 5 - {Course}"
+SplitText<localizes>(Index : int, Time : string) : message = "Split {Index} :  {Time} s"
+RecordText<localizes>(Course : string, Time : string) : message = "NEW RECORD !   {Course}  -  {Time} s"
+
+split_handler := class:
+    Course : chrono_course
+    Index : int
+    OnEnter(Agent : agent) : void =
+        Course.OnSplit(Agent, Index)
 
 # --- records sauvegardes : numero de parcours -> meilleur temps (secondes) ---
 course_records := class<final><persistable>:
@@ -51,7 +59,7 @@ chrono_course := class(creative_device):
     @editable
     CourseLabel : int = 0
 
-    PieceControlNames : []string = array{"Corridor 1", "Corridor 2", "Corridor 3", "Climb 1", "Climb 2", "Climb 3", "Descent 1", "Descent 2", "Descent 3", "Climb 4", "Easy", "Medium", "Hard", "Impossible"}
+    PieceControlNames : []string = array{"Corridor 1", "Corridor 2", "Corridor 3", "Climb 1", "Climb 2", "Climb 3", "Descent 1", "Descent 2", "Descent 3", "Climb 4", "Easy", "Medium", "Hard", "Impossible", "Ramp Rush", "90s", "Retake"}
 
     # Zone de depart (Mutator Zone a l'entree)
     @editable
@@ -89,6 +97,10 @@ chrono_course := class(creative_device):
     @editable
     TitleTextSize : int = 18
 
+    # (Optionnel) zones intermediaires : temps de passage affiche au joueur
+    @editable
+    Checkpoints : []mutator_zone_device = array{}
+
     var Resetting : logic = false
 
     var StartTimes : [agent]float = map{}
@@ -100,6 +112,8 @@ chrono_course := class(creative_device):
             set Point.CanBeDamaged = false
         StartTrigger.AgentEntersEvent.Subscribe(OnStart)
         FinishTrigger.AgentEntersEvent.Subscribe(OnFinish)
+        for (I -> Zone : Checkpoints):
+            Zone.AgentEntersEvent.Subscribe(split_handler{Course := Self, Index := I}.OnEnter)
         GetPlayspace().PlayerAddedEvent().Subscribe(OnPlayerChanged)
         GetPlayspace().PlayerRemovedEvent().Subscribe(OnPlayerChanged)
         for (I -> Board : Leaderboard):
@@ -120,6 +134,11 @@ chrono_course := class(creative_device):
     OnStart(Agent : agent) : void =
         if (set StartTimes[Agent] = GetSimulationElapsedTime()) {}
 
+    OnSplit(Agent : agent, Index : int) : void =
+        if (Start := StartTimes[Agent], Start >= 0.0):
+            ResultHUD.SetText(SplitText(Index + 1, FormatSeconds(GetSimulationElapsedTime() - Start)))
+            ResultHUD.Show(Agent)
+
     OnFinish(Agent : agent) : void =
         if:
             Start := StartTimes[Agent]
@@ -128,12 +147,17 @@ chrono_course := class(creative_device):
         then:
             Elapsed := GetSimulationElapsedTime() - Start
             var Best : float = Elapsed
+            var NewRecord : logic = false
             if (Player := player[Agent]):
                 if (Previous := GetSavedBest[Player, CourseLabel], Previous <= Elapsed):
                     set Best = Previous
                 else:
                     SaveBest(Player, CourseLabel, Elapsed)
-            ResultHUD.SetText(ChronoText(DisplayName(), FormatSeconds(Elapsed), FormatSeconds(Best)))
+                    set NewRecord = true
+            if (NewRecord?):
+                ResultHUD.SetText(RecordText(DisplayName(), FormatSeconds(Elapsed)))
+            else:
+                ResultHUD.SetText(ChronoText(DisplayName(), FormatSeconds(Elapsed), FormatSeconds(Best)))
             ResultHUD.Show(Agent)
             RefreshLeaderboard()
             for (Point : ReturnPoint):

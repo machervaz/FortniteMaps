@@ -1,0 +1,17 @@
+PCX_Descente3_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Descente3
+PCX_Couloir2_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Couloir2
+PCX_Descente2_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Descente2
+TUN_IMPOSSIBLE_Chrono | VerseDevice_C | chrono_course | Zones/Edit/Tunnels/Impossible/Chrono
+PCX_Couloir1_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Couloir1
+PCX_Montee2_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Montee2
+AIM_Trainer | VerseDevice_C | aim_trainer | Zones/Aim/Hub
+TUN_MOYEN_Chrono | VerseDevice_C | chrono_course | Zones/Edit/Tunnels/Moyen/Chrono
+PCX_Montee4_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Montee4
+TUN_DIFFICILE_Chrono | VerseDevice_C | chrono_course | Zones/Edit/Tunnels/Difficile/Chrono
+TUN_FACILE_Chrono | VerseDevice_C | chrono_course | Zones/Edit/Tunnels/Facile/Chrono
+PCX_Montee3_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Montee3
+ZONE_TrainingHubManager | VerseDevice_C | training_hub_manager | Zones/Manager
+ZONE_1v1P_PanelDevice | VerseDevice_C | arena_panel | Zones/1v1/Panel
+PCX_Couloir3_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Couloir3
+PCX_Descente1_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Descente1
+PCX_Montee1_Chrono | VerseDevice_C | chrono_course | Zones/PieceControlX/Courses/Montee1

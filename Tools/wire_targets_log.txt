@@ -1,0 +1,7 @@
+__verse_0x40857CF0_FlickButton -> AIM_Targets_FlickButton
+__verse_0x582B71C0_TrackButton -> AIM_Targets_TrackButton
+__verse_0xA01A74CD_Track -> AIM_Targets_Track
+__verse_0x74718EAE_Board -> AIM_Targets_Board
+__verse_0xA9350A44_HUD -> AIM_Targets_HUD
+flicks 8
+TERMINE

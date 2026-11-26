@@ -1,0 +1,37 @@
+deplace ZONE_1v1_VitreArmes -> x=-18956
+deplace Poseur d'objet21 -> x=-18940
+deplace Poseur d'objet22 -> x=-18940
+deplace Poseur d'objet26 -> x=-18940
+deplace Poseur d'objet15 -> x=-18940
+deplace Poseur d'objet25 -> x=-18940
+deplace Poseur d'objet27 -> x=-18940
+deplace Poseur d'objet24 -> x=-18940
+deplace Poseur d'objet17 -> x=-18940
+deplace Poseur d'objet18 -> x=-18940
+deplace Poseur d'objet14 -> x=-18940
+deplace Poseur d'objet11 -> x=-18940
+deplace Poseur d'objet20 -> x=-18940
+deplace Poseur d'objet28 -> x=-18940
+deplace Poseur d'objet16 -> x=-18940
+deplace Poseur d'objet13 -> x=-18940
+deplace Poseur d'objet12 -> x=-18940
+deplace Poseur d'objet19 -> x=-18940
+cree ZONE_1v1P_ResetExp_G0_PX (-12496,0,1780)
+cree ZONE_1v1P_ResetExp_G0_NX (-25384,0,1780)
+cree ZONE_1v1P_ResetExp_G0_PY (-18940,6700,1780)
+cree ZONE_1v1P_ResetExp_G0_NY (-18940,-6700,1780)
+cree ZONE_1v1P_ResetExp_G0_PZ (-18940,0,8364)
+cree ZONE_1v1P_ResetExp_G0_NZ (-18940,0,-4802)
+cree ZONE_1v1P_ResetExp_G1_PX (-12496,0,1780)
+cree ZONE_1v1P_ResetExp_G1_NX (-25384,0,1780)
+cree ZONE_1v1P_ResetExp_G1_PY (-18940,6700,1780)
+cree ZONE_1v1P_ResetExp_G1_NY (-18940,-6700,1780)
+cree ZONE_1v1P_ResetExp_G1_PZ (-18940,0,8364)
+cree ZONE_1v1P_ResetExp_G1_NZ (-18940,0,-4802)
+cree ZONE_1v1P_ResetExp_G2_PX (-12496,0,1780)
+cree ZONE_1v1P_ResetExp_G2_NX (-25384,0,1780)
+cree ZONE_1v1P_ResetExp_G2_PY (-18940,6700,1780)
+cree ZONE_1v1P_ResetExp_G2_NY (-18940,-6700,1780)
+cree ZONE_1v1P_ResetExp_G2_PZ (-18940,0,8364)
+cree ZONE_1v1P_ResetExp_G2_NZ (-18940,0,-4802)
+TERMINE

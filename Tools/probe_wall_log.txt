@@ -1,0 +1,2 @@
+  18 BP_ItemContainer_C buildingactor=True invuln=False
+   1 CP_Glass_Floor_C buildingactor=True invuln=False

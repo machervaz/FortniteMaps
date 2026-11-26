@@ -15,6 +15,7 @@
 
 using { /Fortnite.com/Devices }
 using { /Fortnite.com/Characters }
+using { /Fortnite.com/Game }
 using { /Fortnite.com/Playspaces }
 using { /Verse.org/Simulation }
 using { /Verse.org/Random }
@@ -22,7 +23,18 @@ using { /UnrealEngine.com/Temporary/SpatialMath }
 using { /Verse.org/Input }
 using { /Fortnite.com/Input/Character }
 
+ExScoreText<localizes>(Name : string, Kills : int, Total : int, Acc : int) : message =
+    "{Name}  -  {Kills} / {Total} bots killed  ({Acc}%)"
+
 aim_trainer := class(creative_device):
+
+    # ---- score des exercices (affiche aux joueurs de l'arene) ----
+    @editable
+    ScoreHUD : hud_message_device = hud_message_device{}
+
+    ExNames : []string = array{"LAUNCH", "BOUNCE", "CIRCUIT"}
+    var ExKills : []int = array{0, 0, 0}
+    var ExTotal : []int = array{0, 0, 0}
 
     # ---- Failles (hub -> exercices, et retours) ----
     @editable
@@ -282,7 +294,9 @@ aim_trainer := class(creative_device):
                     Sentry.Pacify()
                     Killed := race:
                         block:
-                            Sentry.EliminatedEvent.Await()
+                            SentryKiller := Sentry.EliminatedEvent.Await()
+                            if (KA := SentryKiller?, KP := player[KA]):
+                                AddBotKill(KP)
                             true
                         block:
                             WaitPumpEmpty()
@@ -321,6 +335,25 @@ aim_trainer := class(creative_device):
             Sleep(0.5)
             if (not AnyPlayerIn[MinX, MaxX, MinY, MaxY]):
                 break
+
+    # ---- score des exercices : bots tues / bots apparus (0 lancer, 1 rebond, 2 circuit) ----
+    # Les compteurs repartent a zero quand l'arene se vide.
+    RecordBot(Ex : int, Result : elimination_result, MinX : float, MaxX : float, MinY : float, MaxY : float) : void =
+        Victim := Result.EliminatedCharacter
+        Killed := if (Killer := Result.EliminatingCharacter?, Killer <> Victim) then true else false
+        AddBotKillByChar(Result)
+        if (K := ExKills[Ex], T := ExTotal[Ex]):
+            if (set ExTotal[Ex] = T + 1) {}
+            if (Killed?, set ExKills[Ex] = K + 1) {}
+        if (K := ExKills[Ex], T := ExTotal[Ex], Name := ExNames[Ex]):
+            Acc := if (T > 0, A := Floor[K * 100.0 / (T * 1.0)]) then A else 0
+            ScoreHUD.SetText(ExScoreText(Name, K, T, Acc))
+            for (Player : GetPlayspace().GetPlayers(), Char := Player.GetFortCharacter[], P := Char.GetTransform().Translation, P.X >= MinX, P.X <= MaxX, P.Y >= MinY, P.Y <= MaxY):
+                ScoreHUD.Show(Player)
+
+    ResetScoreIfEmpty(Ex : int, MinX : float, MaxX : float, MinY : float, MaxY : float) : void =
+        if (not AnyPlayerIn[MinX, MaxX, MinY, MaxY]):
+            if (set ExKills[Ex] = 0, set ExTotal[Ex] = 0) {}
 
     UseRift(Agent : agent, Index : int) : void =
         # joueurs seulement (les bots PNJ ne doivent pas etre teleportes)
@@ -412,7 +445,9 @@ aim_trainer := class(creative_device):
                 MaybeChar := SpawnBot(LaunchSpawner, Start, Rot, LaunchHealth)
                 if (Char := MaybeChar?):
                     race:
-                        Char.EliminatedEvent().Await()
+                        block:
+                            R := Char.EliminatedEvent().Await()
+                            RecordBot(0, R, -5000.0, 5000.0, 29000.0, 39000.0)
                         WaitNoPlayerIn(-5000.0, 5000.0, 29000.0, 39000.0)
                         block:
                             # vol raccourci par le mur -> un peu plus court en temps aussi
@@ -421,6 +456,7 @@ aim_trainer := class(creative_device):
                             Char.Damage(100000.0)     # touche le sol -> meurt
                             Sleep(3.0)
                     LaunchSpawner.DespawnAll(false)
+                    ResetScoreIfEmpty(0, -5000.0, 5000.0, 29000.0, 39000.0)
                 else:
                     Sleep(1.0)
             Sleep(0.6)
@@ -437,11 +473,14 @@ aim_trainer := class(creative_device):
                 MaybeChar := SpawnBot(BounceSpawner, Base, Rot, BounceHealth)
                 if (Char := MaybeChar?):
                     race:
-                        Char.EliminatedEvent().Await()
+                        block:
+                            R := Char.EliminatedEvent().Await()
+                            RecordBot(1, R, -4000.0, 4000.0, 40000.0, 48000.0)
                         WaitNoPlayerIn(-4000.0, 4000.0, 40000.0, 48000.0)
                         loop:
                             ArcChar(Char, Base, Base, Base.Z + BounceHeight, 2.0 * BounceTime, Rot)
                     BounceSpawner.DespawnAll(false)
+                    ResetScoreIfEmpty(1, -4000.0, 4000.0, 40000.0, 48000.0)
                 else:
                     Sleep(1.0)
             Sleep(0.6)
@@ -455,13 +494,16 @@ aim_trainer := class(creative_device):
                 MaybeChar := SpawnBot(CircuitSpawner, Start, First.GetTransform().Rotation, CircuitHealth)
                 if (Char := MaybeChar?):
                     race:
-                        Char.EliminatedEvent().Await()
+                        block:
+                            R := Char.EliminatedEvent().Await()
+                            RecordBot(2, R, -3500.0, 3500.0, 48500.0, 55500.0)
                         WaitNoPlayerIn(-3500.0, 3500.0, 48500.0, 55500.0)
                         block:
                             WalkPath(Char, Start)
                             Char.Damage(100000.0)     # bout du circuit -> meurt
                             Sleep(3.0)
                     CircuitSpawner.DespawnAll(false)
+                    ResetScoreIfEmpty(2, -3500.0, 3500.0, 48500.0, 55500.0)
                 else:
                     Sleep(1.0)
             Sleep(0.6)

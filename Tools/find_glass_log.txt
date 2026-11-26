@@ -1,0 +1,23 @@
+/Game/Creative/Environments/Meshes/Glass/Materials/M_CP_GlassGallery_Master
+/Game/Creative/Environments/Meshes/Glass/Materials/MI_CP_GlassGallery
+/CRP_GardenPartyNA/SetupAssets/TextureData/CP_TD_GlassGallery
+/Game/Creative/Environments/Meshes/Glass/CP_GlassGallery_Diamond_01
+/Game/Creative/Environments/Meshes/Glass/CP_GlassGallery_Quadrangle_01
+/Game/Creative/Environments/Meshes/Glass/CP_GlassGallery_Rhombus_01
+/Game/Creative/Environments/Meshes/Glass/CP_GlassGallery_Trapezoid_01
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Aquamarine
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Beige
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Black
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Cerulean
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Frosted
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Green
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Orange
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Pink
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Purple
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Red
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Silver
+/Game/Creative/Environments/Meshes/Glass/Materials/Glass_version_02/MI_CP_GlassGallery_Yellow
+/Game/Creative/Environments/Meshes/Glass/Materials/M_CP_GlassGallery_SunburstRecords
+/Game/Creative/Environments/Meshes/Glass/Materials/MI_CP_GlassGallery_Black
+parent: /Game/Creative/Environments/Meshes/Glass/Materials/MI_CP_GlassGallery.MI_CP_GlassGallery

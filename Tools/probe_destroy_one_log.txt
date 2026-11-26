@@ -1,0 +1,4 @@
+avant : 1 ['/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.PBWA_W1_Solid_C_2147482646']
+locked=? editable=?
+destroy -> True ; valide apres=True
+apres : 1 ['/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.PBWA_W1_Solid_C_2147482646']

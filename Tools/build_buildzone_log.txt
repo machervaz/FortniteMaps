@@ -1,0 +1,5 @@
+piste Rush ok
+piste Nineties ok
+piste Retake ok
+tour : 15 pieces, reset True
+OK

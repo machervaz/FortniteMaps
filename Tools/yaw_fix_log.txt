@@ -1,0 +1,4 @@
+ZONE_1v1_Arme2 [0, 0, 0]
+ZONE_1v1_Arme4 [0, 0, 0]
+ZONE_1v1_Arme7 [0, 0, 0]
+ZONE_1v1_Arme13 [0, 0, 0]

@@ -1,0 +1,3 @@
+avant : centre <Struct 'Vector' (0x0000022FC1977FD0) {x: -19455.999997, y: -0.000000, z: 1792.000000}> ext <Struct 'Vector' (0x0000022FC1977F80) {x: 8.000000, y: 256.000000, z: 128.000000}> mat /Engine/Transient.MID_MI_CP_GlassGallery_0
+apres : centre <Struct 'Vector' (0x0000022FC1977E40) {x: -19455.999997, y: -0.000000, z: 1792.000000}> ext <Struct 'Vector' (0x0000022FC1977E90) {x: 8.000000, y: 256.000000, z: 128.000000}>
+TERMINE

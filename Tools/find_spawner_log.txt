@@ -1,0 +1,13 @@
+/CreativeCoreDevices/Device_ItemSpawner_V3 | BlueprintGeneratedClass
+/CreativeCoreDevices/Device_ItemSpawner_Parent_V2 | BlueprintGeneratedClass
+/CRD_CarryableItemSpawner/BP_Carryables/BP_CarryableItemSpawner_BaseCarryable | BlueprintGeneratedClass
+/CRD_CarryableItemSpawner/BP_Carryables/BP_CarryableItemSpawner_FallbackNewtonCarryable | BlueprintGeneratedClass
+/CRD_CarryableItemSpawner/Device_CRD_CarryableItemSpawner | BlueprintGeneratedClass
+/CreativeCoreDevices/Device_CaptureItemSpawner_V2 | BlueprintGeneratedClass
+/Game/Athena/Items/Parents/ItemSpawners/B_ItemSpawner_Parent | BlueprintGeneratedClass
+/Game/Athena/TestAssets/Blueprints/BGA_TestMap_ItemSpawner | BlueprintGeneratedClass
+/Game/Creative/Devices/ItemSpawnerProp/Device_ItemSpawner_Parent | BlueprintGeneratedClass
+/Game/Creative/Devices/ItemSpawnerProp/Knobs/Filters/Device_ItemSpawner_ClassIndexRange_KnobFilter | BlueprintGeneratedClass
+/Game/Creative/Devices/ItemSpawnerProp/Knobs/Filters/Device_ItemSpawner_TeamIndexRange_KnobFilter | BlueprintGeneratedClass
+/Game/Creative/Devices/ItemSpawnerV2/BP_Creative_ItemSpawner | BlueprintGeneratedClass
+/SpriteExtractionGameplay/Gameplay/Managers/B_ExtractionItemSpawnManager_GSC | BlueprintGeneratedClass

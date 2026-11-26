@@ -1,0 +1,15 @@
+repose PBWA_W1_RoofC_C59 PBWA_W1_RoofC_C (1280,-24064,1654) yaw -90
+repose PBWA_W1_RoofC_C60 PBWA_W1_RoofC_C (1536,-24832,2038) yaw 180
+repose PBWA_W1_RoofC_C61 PBWA_W1_RoofC_C (1280,-26112,2038) yaw -90
+repose PBWA_W1_RoofC_C62 PBWA_W1_RoofC_C (1536,-27392,1654) yaw 0
+repose PBWA_W1_RoofC_C30 PBWA_W1_RoofC_C (1536,-33024,1654) yaw 0
+repose PBWA_W1_RoofC_C32 PBWA_W1_RoofC_C (1536,-33536,1654) yaw 180
+repose PBWA_W1_RoofC_C64 PBWA_W1_RoofC_C (1280,-34304,1654) yaw -90
+repose PBWA_W1_RoofC_C65 PBWA_W1_RoofC_C (1536,-35584,1654) yaw 0
+repose PBWA_W1_RoofC_C66 PBWA_W1_RoofC_C (1280,-36352,2038) yaw -90
+repose PBWA_W1_RoofC_C67 PBWA_W1_RoofC_C (1280,-36352,2422) yaw -90
+repose PBWA_W1_RoofC_C20 PBWA_W1_RoofC_C (1536,-37632,2038) yaw 0
+repose PBWA_W1_RoofC_C54 PBWA_W1_RoofC_C (1536,-38656,1654) yaw 0
+repose PBWA_W1_RoofC_C68 PBWA_W1_RoofC_C (1536,-39680,1654) yaw 0
+ajout au reset : True
+TERMINE : 13 toits reposes

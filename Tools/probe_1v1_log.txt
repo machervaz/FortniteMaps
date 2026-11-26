@@ -1,0 +1,127 @@
+ZONE_1v1_Title | BP_Creative_Billboard_C | Zones/1v1 | -18600 0 1986
+ZONE_1v1_ReturnTitle | BP_Creative_Billboard_C | Zones/1v1 | -17600 -900 2076
+ZONE_1v1P_TxtDown | BP_Creative_Billboard_C | Zones/1v1/Panel | -20371 206 1914
+LOBBY_Portal_1v1_Title | BP_Creative_Billboard_C | Lobby/Portals | 1485 750 1698
+ZONE_1v1P_TxtUp | BP_Creative_Billboard_C | Zones/1v1/Panel | -20371 6 1914
+ZONE_1v1P_TxtReset | BP_Creative_Billboard_C | Zones/1v1/Panel | -20371 421 1884
+LOBBY_PlayerSpawner | BP_Creative_Player_Spawner_Prop_C | Lobby/Gameplay | -1500 0 1270
+Poseur d'objet21 | BP_ItemContainer_C | None | -19440 -160 1836
+Poseur d'objet22 | BP_ItemContainer_C | None | -19440 192 1728
+Poseur d'objet3 | BP_ItemContainer_C | None | 48 18816 1284
+Poseur d'objet26 | BP_ItemContainer_C | None | -19440 0 1776
+Poseur d'objet8 | BP_ItemContainer_C | None | 256 18816 1284
+Poseur d'objet15 | BP_ItemContainer_C | None | -19440 -112 1680
+Poseur d'objet25 | BP_ItemContainer_C | None | -19440 -80 1776
+Poseur d'objet27 | BP_ItemContainer_C | None | -19440 192 1776
+Poseur d'objet | BP_ItemContainer_C | None | -64 18816 1284
+Poseur d'objet24 | BP_ItemContainer_C | None | -19440 -192 1728
+Poseur d'objet29 | BP_ItemContainer_C | None | -18604 476 1536
+Poseur d'objet4 | BP_ItemContainer_C | None | -352 18816 1284
+Poseur d'objet17 | BP_ItemContainer_C | None | -19440 96 1680
+Poseur d'objet18 | BP_ItemContainer_C | None | -19440 -16 1680
+Poseur d'objet14 | BP_ItemContainer_C | None | -19440 0 1728
+Poseur d'objet2 | BP_ItemContainer_C | None | 368 18816 1284
+Poseur d'objet11 | BP_ItemContainer_C | None | -19440 -208 1680
+Poseur d'objet20 | BP_ItemContainer_C | None | -19440 -208 1776
+Poseur d'objet9 | BP_ItemContainer_C | None | -448 18816 1284
+Poseur d'objet28 | BP_ItemContainer_C | None | -19440 144 1836
+Poseur d'objet6 | BP_ItemContainer_C | None | -160 18816 1284
+Poseur d'objet7 | BP_ItemContainer_C | None | -1475 -671 1375
+Poseur d'objet10 | BP_ItemContainer_C | None | -256 18816 1284
+Poseur d'objet16 | BP_ItemContainer_C | None | -19440 208 1680
+Poseur d'objet13 | BP_ItemContainer_C | None | -19440 96 1776
+Poseur d'objet23 | BP_ItemContainer_C | None | 496 18816 1284
+Poseur d'objet5 | BP_ItemContainer_C | None | 160 18816 1284
+Poseur d'objet12 | BP_ItemContainer_C | None | -19440 -96 1728
+Poseur d'objet19 | BP_ItemContainer_C | None | -19440 96 1728
+ZONE_1v1_Arrival | CP_L_T_Primitive_Planar_Cylinder_Solid_C | Zones/1v1 | -17600 0 1536
+ZONE_1v1P_SkyFloor | CP_L_T_Primitive_Planar_Cylinder_Solid_C | Zones/1v1/Panel | -20000 -0 1170
+ZONE_1v1P_RespawnMark | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -17600 0 1536
+ZONE_1v1P_ShapeSky1 | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 371 2086
+ZONE_1v1P_ShapeSky0 | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 511 2086
+ZONE_1v1P_ShapeSpeedUp | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 36 1956
+ZONE_1v1P_ShapeReset | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 521 1941
+ZONE_1v1P_ShapeSky2 | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 231 2086
+ZONE_1v1P_ShapeSky3 | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 91 2086
+ZONE_1v1P_ShapeSpeedDown | CP_L_T_Primitive_Squared_Cube_Flat_C | Zones/1v1/Panel | -20371 236 1956
+ZONE_1v1P_SkyVault | CP_Primitive_Sphere_Hollow_Half_C | Zones/1v1/Panel | -20000 -16916 970
+ZONE_1v1P_SpeedDisplay | Device_Billboard_V2_C | Zones/1v1/Panel | -20371 106 1884
+AIM_Bounce_Spawner | Device_CharacterSpawner_C | Zones/Aim/Bounce | 3500 47500 1270
+AIM_Launch_Spawner | Device_CharacterSpawner_C | Zones/Aim/Launch | 4500 38500 1270
+AIM_Circuit_Spawner | Device_CharacterSpawner_C | Zones/Aim/Circuit | 3000 50500 1270
+ZONE_1v1_Speed1_ClassDesigner | Device_ClassDesigner_V2_C | Zones/1v1/Speed/Devices | -52100 2600 770
+ZONE_1v1_Speed0_ClassDesigner | Device_ClassDesigner_V2_C | Zones/1v1/Speed/Devices | -52100 2800 770
+ZONE_1v1_Speed3_ClassDesigner | Device_ClassDesigner_V2_C | Zones/1v1/Speed/Devices | -52100 2200 770
+ZONE_1v1_Speed2_ClassDesigner | Device_ClassDesigner_V2_C | Zones/1v1/Speed/Devices | -52100 2400 770
+ZONE_1v1_Speed0_ClassSelector | Device_ClassSelector_V2_C | Zones/1v1/Speed/Devices | -17300 2800 770
+ZONE_1v1_Speed1_ClassSelector | Device_ClassSelector_V2_C | Zones/1v1/Speed/Devices | -17300 2600 770
+ZONE_1v1_Speed2_ClassSelector | Device_ClassSelector_V2_C | Zones/1v1/Speed/Devices | -17300 2400 770
+ZONE_1v1_Speed3_ClassSelector | Device_ClassSelector_V2_C | Zones/1v1/Speed/Devices | -17300 2200 770
+ZONE_1v1P_ResetExplosive | Device_ExplosiveBarrel_V2_C | Zones/1v1/Panel | -20000 0 1836
+ZONE_1v1P_ResetExplosive3 | Device_ExplosiveBarrel_V2_C | Zones/1v1/Panel | -20000 0 1836
+ZONE_1v1P_ResetExplosive2 | Device_ExplosiveBarrel_V2_C | Zones/1v1/Panel | -20000 0 1836
+ZONE_1v1_Welcome | Device_HUDMessage_V2_C | Zones/1v1/Devices | -17300 900 1536
+ZONE_1v1_Loadout | Device_ItemGranter_V2_C | Zones/1v1/Devices | -52300 1200 1270
+ZONE_Aim_Loadout | Device_ItemGranter_V2_C | Zones/Aim/Devices | 1200 17300 1270
+AIM_Pump_Loadout | Device_ItemGranter_V2_C | Zones/Aim/Pump | 2100 60400 1270
+ZONE_PieceControl_Loadout | Device_ItemGranter_V2_C | Zones/PieceControl/Devices | 17300 -1200 1270
+ZONE_Edit_Loadout | Device_ItemGranter_V2_C | Zones/Edit/Devices | -1200 -17300 1270
+ZONE_1v1P_FallZone | Device_MutatorVolume_V2_C | Zones/1v1/Panel | -20000 0 1253
+ZONE_1v1_ReturnZone | Device_MutatorVolume_V2_C | Zones/1v1 | -17600 -900 1623
+LOBBY_Zone_1v1 | Device_MutatorVolume_V2_C | Lobby/Portals/1v1 | 1500 750 1380
+ZONE_1v1P_PMSky0 | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 210 1236
+ZONE_1v1P_PMReset | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 165 1236
+ZONE_1v1P_PMSky1 | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 70 1236
+ZONE_1v1P_PMSky2 | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 -70 1236
+ZONE_1v1P_PMSky3 | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 -210 1236
+ZONE_1v1P_PMSpeedDown | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 -50 1236
+ZONE_1v1P_PMSpeedUp | Device_PropManipulation_V2_C | Zones/1v1/Panel | -19739 -250 1236
+ZONE_1v1P_PMTemplate | Device_PropManipulation_V2_C | Zones/1v1/Panel | -54400 600 770
+LOBBY_Portal_1v1_Icon3 | FortStaticMeshActor | Lobby/Portals | 1494 750 1570
+ZONE_1v1P_Frame | FortStaticMeshActor | Zones/1v1/Panel | -20408 256 2066
+ZONE_1v1P_SkyFrame2 | FortStaticMeshActor | Zones/1v1/Panel | -20387 186 2131
+ZONE_1v1N_RampEdge1 | FortStaticMeshActor | Zones/1v1/Arena | -19968 760 1912
+LOBBY_Portal_1v1_Case-1 | FortStaticMeshActor | Lobby/Portals | 1500 555 1586
+LOBBY_Portal_1v1_Line-1 | FortStaticMeshActor | Lobby/Portals | 1498 612 1560
+ZONE_1v1N_RampEdge-1 | FortStaticMeshActor | Zones/1v1/Arena | -19968 -248 1912
+LOBBY_Portal_1v1_Fill | FortStaticMeshActor | Lobby/Portals | 1500 750 1560
+LOBBY_Portal_1v1_NeonTop | FortStaticMeshActor | Lobby/Portals | 1496 750 1859
+ZONE_1v1P_SkyFrame0 | FortStaticMeshActor | Zones/1v1/Panel | -20387 466 2131
+LOBBY_Portal_1v1_Line1 | FortStaticMeshActor | Lobby/Portals | 1498 888 1560
+ZONE_1v1P_SkinSpeedDown | FortStaticMeshActor | Zones/1v1/Panel | -20368 206 1991
+LOBBY_Portal_1v1_Neon-1 | FortStaticMeshActor | Lobby/Portals | 1496 581 1569
+ZONE_1v1P_SecSpeed | FortStaticMeshActor | Zones/1v1/Panel | -20388 106 1991
+LOBBY_Portal_1v1_LineTop | FortStaticMeshActor | Lobby/Portals | 1498 750 1828
+ZONE_1v1P_SkinSky0 | FortStaticMeshActor | Zones/1v1/Panel | -20368 466 2131
+ZONE_1v1N_Ramp1 | FortStaticMeshActor | Zones/1v1/Arena | -19968 519 1718
+ZONE_1v1P_SkinSky3 | FortStaticMeshActor | Zones/1v1/Panel | -20368 46 2131
+LOBBY_Portal_1v1_FloorGlow | FortStaticMeshActor | Lobby/Portals | 1340 750 1271
+ZONE_1v1P_SkinSky1 | FortStaticMeshActor | Zones/1v1/Panel | -20368 326 2131
+LOBBY_Portal_1v1_Icon2 | FortStaticMeshActor | Lobby/Portals | 1492 792 1528
+ZONE_1v1P_Post-1 | FortStaticMeshActor | Zones/1v1/Panel | -20408 16 1724
+ZONE_1v1P_SkinSpeedUp | FortStaticMeshActor | Zones/1v1/Panel | -20368 6 1991
+LOBBY_Portal_1v1_Case1 | FortStaticMeshActor | Lobby/Portals | 1500 945 1586
+ZONE_1v1N_Rim | FortStaticMeshActor | Zones/1v1/Arena | -20000 0 1434
+LOBBY_Portal_1v1_Icon4 | FortStaticMeshActor | Lobby/Portals | 1492 708 1528
+ZONE_1v1P_Post1 | FortStaticMeshActor | Zones/1v1/Panel | -20408 496 1724
+LOBBY_Portal_1v1_Neon1 | FortStaticMeshActor | Lobby/Portals | 1496 919 1569
+LOBBY_Portal_1v1_CaseTop | FortStaticMeshActor | Lobby/Portals | 1500 750 1885
+ZONE_1v1P_SkinReset | FortStaticMeshActor | Zones/1v1/Panel | -20368 421 1991
+ZONE_1v1P_Board | FortStaticMeshActor | Zones/1v1/Panel | -20400 256 2066
+ZONE_1v1_ReturnHolo | FortStaticMeshActor | Zones/1v1 | -17600 -900 1756
+ZONE_1v1N_Ramp-1 | FortStaticMeshActor | Zones/1v1/Arena | -19968 -7 1718
+ZONE_1v1_ReturnSocle | FortStaticMeshActor | Zones/1v1 | -17600 -900 1539
+ZONE_1v1P_SkyFrame1 | FortStaticMeshActor | Zones/1v1/Panel | -20387 326 2131
+ZONE_1v1P_SkyFrame3 | FortStaticMeshActor | Zones/1v1/Panel | -20387 46 2131
+LOBBY_Portal_1v1_Icon1 | FortStaticMeshActor | Lobby/Portals | 1494 750 1570
+ZONE_1v1N_Disc | FortStaticMeshActor | Zones/1v1/Arena | -20000 0 1436
+ZONE_1v1P_SkinSky2 | FortStaticMeshActor | Zones/1v1/Panel | -20368 186 2131
+LOBBY_Portal_1v1_NeonSill | FortStaticMeshActor | Lobby/Portals | 1496 750 1272
+LOBBY_Portal_1v1_LineBot | FortStaticMeshActor | Lobby/Portals | 1498 750 1292
+ZONE_1v1N_Light2 | PointLight | Zones/1v1/Arena | -18500 -1500 2136
+LOBBY_Portal_1v1_Glow | PointLight | Lobby/Portals | 1320 750 1430
+ZONE_1v1N_Light3 | PointLight | Zones/1v1/Arena | -21500 1500 2136
+ZONE_1v1N_Light1 | PointLight | Zones/1v1/Arena | -21500 -1500 2136
+ZONE_1v1N_Light0 | PointLight | Zones/1v1/Arena | -18500 1500 2136
+LOBBY_Portal_1v1_Spot | SpotLight | Lobby/Portals | 1000 750 2130
+ZONE_1v1P_PanelDevice | VerseDevice_C | Zones/1v1/Panel | -19400 0 1136

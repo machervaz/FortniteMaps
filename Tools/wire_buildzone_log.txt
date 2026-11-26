@@ -1,0 +1,7 @@
+__verse_0xC40A24B1_EntryZone -> LOBBY_Zone_Build
+__verse_0x2E1810D5_Arrival -> BUILD_Arrival
+__verse_0x11C253F9_ReturnZone -> BUILD_ReturnZone
+__verse_0x204CC60D_LobbyPoint -> LOBBY_BuildReturnPoint
+__verse_0xC08A223F_BuildClass -> ZONE_1v1_Speed0_ClassSelector
+courses 17 boards 18
+TERMINE

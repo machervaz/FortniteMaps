@@ -1,3 +1,3 @@
-ajout bois au data layer : True
-bois : 233, non-bois : 826
+ajout bois au data layer : False
+bois : 231, non-bois : 942
 TERMINE

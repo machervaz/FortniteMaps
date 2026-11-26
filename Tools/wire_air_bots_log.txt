@@ -1,0 +1,4 @@
+spawner BUILD_BotSpawner
+explosifs 1
+restants BUILD_* : ['BUILD_AirBots', 'BUILD_Arrival', 'BUILD_BotSpawner', 'BUILD_Device', 'BUILD_Floor', 'BUILD_LedX-1', 'BUILD_LedX1', 'BUILD_LedY-1', 'BUILD_LedY1', 'BUILD_Ramp-1', 'BUILD_Ramp1', 'BUILD_RampEdge-1', 'BUILD_RampEdge1', 'BUILD_ResetButton', 'BUILD_ResetExp', 'BUILD_ResetTitle', 'BUILD_ReturnHolo', 'BUILD_ReturnSocle', 'BUILD_ReturnTitle', 'BUILD_ReturnZone', 'BUILD_Title']
+TERMINE

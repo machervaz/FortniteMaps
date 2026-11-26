@@ -1,0 +1,2 @@
+ResetExplosives -> ['ZONE_1v1P_ResetExp_G0_PX', 'ZONE_1v1P_ResetExp_G0_NX', 'ZONE_1v1P_ResetExp_G0_PY', 'ZONE_1v1P_ResetExp_G0_NY', 'ZONE_1v1P_ResetExp_G0_PZ', 'ZONE_1v1P_ResetExp_G0_NZ', 'ZONE_1v1P_ResetExp_G1_PX', 'ZONE_1v1P_ResetExp_G1_NX', 'ZONE_1v1P_ResetExp_G1_PY', 'ZONE_1v1P_ResetExp_G1_NY', 'ZONE_1v1P_ResetExp_G1_PZ', 'ZONE_1v1P_ResetExp_G1_NZ', 'ZONE_1v1P_ResetExp_G2_PX', 'ZONE_1v1P_ResetExp_G2_NX', 'ZONE_1v1P_ResetExp_G2_PY', 'ZONE_1v1P_ResetExp_G2_NY', 'ZONE_1v1P_ResetExp_G2_PZ', 'ZONE_1v1P_ResetExp_G2_NZ']
+TERMINE

@@ -1,0 +1,20 @@
+ZONE_1v1_Arme1 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme10 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme11 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme12 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme13 Device_ItemSpawner_V3_C (-19439,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme14 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme15 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme16 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme17 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme2 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme3 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme4 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme5 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme6 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme7 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme8 Device_ItemSpawner_V3_C (-19439,0,0) folder=Zones/1v1/Armes
+ZONE_1v1_Arme9 Device_ItemSpawner_V3_C (-19440,0,0) folder=Zones/1v1/Armes
+supprimes : 18
+vitre remplacee : mesh=CP_Glass_Floor_01 mats=1 ; ancienne supprimee=True
+TERMINE

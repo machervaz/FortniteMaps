@@ -47,6 +47,9 @@ arena_panel := class(creative_device):
     @editable
     ResetExplosives : []explosive_device = array{}
 
+    # Nombre d'explosifs qui sautent ensemble a chaque RESET
+    ResetGroupSize : int = 6
+
     # ---- Ciel ----
     @editable
     SkyShapes : []prop_manipulator_device = array{}
@@ -149,13 +152,17 @@ arena_panel := class(creative_device):
             SpeedDisplay.SetText(SpeedText(Percent))
 
     # ---------------- reset ----------------
+    # Les explosifs sont places loin autour du mur d'armes (hors de portee de
+    # celui-ci) et vont par groupes de ResetGroupSize : un groupe explose a la
+    # fois, le suivant est pret pendant que le precedent se rearme.
     OnResetHit(Agent : agent) : void =
         Heal()
         if (Accept[Agent]):
-            if (Explosive := ResetExplosives[NextExplosive]):
+            Groups := if (Q := ResetExplosives.Length / ResetGroupSize) then Floor(Q) else 1
+            for (K := 0..ResetGroupSize - 1, Explosive := ResetExplosives[NextExplosive * ResetGroupSize + K]):
                 Explosive.Explode(Agent)
                 spawn{ Rearm(Explosive) }
-            set NextExplosive = if (NextExplosive + 1 < ResetExplosives.Length) then NextExplosive + 1 else 0
+            set NextExplosive = if (NextExplosive + 1 < Groups) then NextExplosive + 1 else 0
 
     # L'explosif a besoin d'environ 1,5 s avant de pouvoir etre reinitialise
     Rearm(Explosive : explosive_device)<suspends> : void =

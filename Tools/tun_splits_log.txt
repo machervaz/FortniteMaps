@@ -1,0 +1,9 @@
+TUN_FACILE_Split1 cellule 6 niveau 1
+TUN_FACILE_Split2 cellule 13 niveau 1
+TUN_MOYEN_Split1 cellule 9 niveau 1
+TUN_MOYEN_Split2 cellule 18 niveau 0
+TUN_DIFFICILE_Split1 cellule 12 niveau 1
+TUN_DIFFICILE_Split2 cellule 24 niveau 0
+TUN_IMPOSSIBLE_Split1 cellule 14 niveau 1
+TUN_IMPOSSIBLE_Split2 cellule 29 niveau 1
+TERMINE

@@ -10,7 +10,7 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
-	"VersePath": "/invaliddomain/testMoudon01",
+	"VersePath": "/macdoug@fortnite.com/testMoudon01",
 	"VerseVersion": 1,
 	"EnableVerseAssetReflection": true,
 	"EnabledByDefault": false,
@@ -28,5 +28,6 @@
 	},
 	"VerseAPI": 1,
 	"builtInAutoActivate": false,
-	"EnableSceneGraph": true
+	"EnableSceneGraph": true,
+	"ZenProjectKey": "2f9d3353-0610-45df-8bbe-df4d9a2275a8"
 }

@@ -1,0 +1,9 @@
+monte de 768
+BUILD_Floor : z 1870..1920
+BUILD_Arrival : z 1925..1935
+BUILD_Ramp-1 : z 1901..2304
+BUILD_Ramp1 : z 1901..2304
+BUILD_ReturnSocle : z 1920..1926
+BUILD_BotSpawner : z 1919..2170
+BUILD_ResetButton : z 1792..2048
+OK

@@ -1,0 +1,226 @@
+﻿Begin Map
+   Begin Level
+      Begin Actor Class=/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C Name=Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989 Archetype="/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C'/CreativeCoreDevices/Device_ItemSpawner_V3.Default__Device_ItemSpawner_V3_C'" ActorFolderPath="None" ExportPath="/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Default__Device_ItemSpawner_V3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Default__Device_ItemSpawner_V3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Default__Device_ItemSpawner_V3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="DropBox" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:DropBox_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.DropBox'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Traps/MinigameSpawner/Minigame_Spawner_Component.Minigame_Spawner_Component_C Name="Minigame_Spawner_Component" Archetype="/Game/Athena/Items/Traps/MinigameSpawner/Minigame_Spawner_Component.Minigame_Spawner_Component_C'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:Minigame_Spawner_Component_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Traps/MinigameSpawner/Minigame_Spawner_Component.Minigame_Spawner_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Minigame_Spawner_Component'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="LightRays" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:LightRays_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.LightRays'"
+         End Object
+         Begin Object Class=/Script/Engine.PointLightComponent Name="PointLight" Archetype="/Script/Engine.PointLightComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:PointLight_GEN_VARIABLE'" ExportPath="/Script/Engine.PointLightComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PointLight'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="RotationSceneComponent" Archetype="/Script/Engine.SceneComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:RotationSceneComponent_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.RotationSceneComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="PreviewStaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:PreviewStaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PreviewStaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="PreviewSkeletalMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:PreviewSkeletalMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PreviewSkeletalMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Holo Loop Cue" Archetype="/Script/Engine.AudioComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:Holo Loop Cue_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Holo Loop Cue'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="EnableWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:EnableWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.EnableWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="DisableWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:DisableWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.DisableWhenReceived'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BlockSpawnBox" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:BlockSpawnBox_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.BlockSpawnBox'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TriggerOnPickedUpItem" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:TriggerOnPickedUpItem_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.TriggerOnPickedUpItem'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C Name="Creative_ItemPreview_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C:Creative_ItemPreview_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Creative_ItemPreview_Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortCreativeItemVariantNotifierComponent Name="ItemVariantNotifier" Archetype="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/CreativeCoreDevices/Device_ItemSpawner_Parent_V2.Device_ItemSpawner_Parent_V2_C:ItemVariantNotifier_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.ItemVariantNotifier'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="CycleToNextItemWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C:CycleToNextItemWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.CycleToNextItemWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SpawnItemWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ItemSpawner_V3.Device_ItemSpawner_V3_C:SpawnItemWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.SpawnItemWhenReceived'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_TeamSelect_Spawner_02_0'"
+            CachedMaxDrawDistance=5954.229492
+            RelativeLocation=(X=-54000.000000,Y=0.000000,Z=770.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.BoundingBoxComponent'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Allow Spawning When Blocked",PropertyData="False"),(PropertyName="AllowedClass",PropertyData="(ClassType=Any,ClassSlot=1)"),(PropertyName="AllowedTeam",PropertyData="(TeamType=Any,TeamIndex=1)"),(PropertyName="Base Visible During Game",PropertyData="False"),(PropertyName="Continuously Spawn Items",PropertyData="False"),(PropertyName="Enabled At Game Start",PropertyData="True"),(PropertyName="Gold Cost of Item",PropertyData="0"),(PropertyName="Initial Movement of Item",PropertyData="Gravity"),(PropertyName="InitialSecondaryWeaponAmmo"),(PropertyName="InitialWeaponAmmo"),(PropertyName="Invert Class",PropertyData="False"),(PropertyName="Invert Team",PropertyData="False"),(PropertyName="Item Scale",PropertyData="1.000000"),(PropertyName="Items Respawn",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="TEST_ItemSpawner"),(PropertyName="Metal Cost of Item",PropertyData="0"),(PropertyName="Random Spawns",PropertyData="Off"),(PropertyName="Respawn Item On Timer",PropertyData="True"),(PropertyName="Run Over Pickup",PropertyData="False"),(PropertyName="SpareSecondaryWeaponAmmo"),(PropertyName="SpareWeaponAmmo"),(PropertyName="Spawn Item On Timer",PropertyData="True"),(PropertyName="Stone Cost of Item",PropertyData="0"),(PropertyName="Time Before First Spawn",PropertyData="0.000000"),(PropertyName="Time Between Spawns",PropertyData="0.000000"),(PropertyName="Wood Cost of Item",PropertyData="0")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.VisibleInGameComponent'"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            VisibleDuringPhase=NewEnumerator1
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DropBox" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.DropBox'"
+            CachedMaxDrawDistance=5954.229492
+            BodyInstance=(CollisionEnabled=QueryOnly)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Minigame_Spawner_Component" ExportPath="/Game/Athena/Items/Traps/MinigameSpawner/Minigame_Spawner_Component.Minigame_Spawner_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Minigame_Spawner_Component'"
+            DelayBetweenSpawns=0.001000
+            bShouldTossPickups=True
+            ToSpawnList(0)=(PickupToSpawn="/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03")
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="LightRays" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.LightRays'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="StaticMeshComponent0"
+            bHiddenInGame=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PointLight" ExportPath="/Script/Engine.PointLightComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PointLight'"
+            MaxDrawDistance=5954.229492
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="LightRays"
+            bHiddenInGame=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="RotationSceneComponent" ExportPath="/Script/Engine.SceneComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.RotationSceneComponent'"
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=86.272568)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PreviewStaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PreviewStaticMesh'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_Generic_Icon_01.CP_Device_Generic_Icon_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MI_CP_Device_Generic_Icon_01-205C3B2079E9CEB4_0'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="RotationSceneComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PreviewSkeletalMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.PreviewSkeletalMesh'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="RotationSceneComponent"
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Holo Loop Cue" ExportPath="/Script/Engine.AudioComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Holo Loop Cue'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnableWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.EnableWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DisableWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.DisableWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BlockSpawnBox" ExportPath="/Script/Engine.BoxComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.BlockSpawnBox'"
+            CachedMaxDrawDistance=5954.229492
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TriggerOnPickedUpItem" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.TriggerOnPickedUpItem'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_ItemPreview_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.Creative_ItemPreview_Component'"
+            Items to Load(0)=(Item="/Script/FortniteGame.FortWeaponRangedItemDefinition'/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03'")
+            VariantNotifier="ItemVariantNotifier"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ItemVariantNotifier" ExportPath="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.ItemVariantNotifier'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CycleToNextItemWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.CycleToNextItemWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SpawnItemWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/5622d7d7-d1ca-438f-8a48-1286a48e2471/testMoudon01.testMoudon01:PersistentLevel.Device_ItemSpawner_V3_C_UAID_88AEDD1B6F83601703_1927922989.SpawnItemWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         SpawnItemWhenReceived="SpawnItemWhenReceived"
+         CycleToNextItemWhenReceived="CycleToNextItemWhenReceived"
+         bIgnoreSpawnParamsBool=False
+         ItemVariantNotifier="ItemVariantNotifier"
+         Creative_ItemPreview_Component="Creative_ItemPreview_Component"
+         PreviewSkeletalMesh="PreviewSkeletalMesh"
+         TriggerOnPickedUpItem="TriggerOnPickedUpItem"
+         PointLight="PointLight"
+         BlockSpawnBox="BlockSpawnBox"
+         DisableWhenReceived="DisableWhenReceived"
+         EnableWhenReceived="EnableWhenReceived"
+         Holo Loop Cue="Holo Loop Cue"
+         PreviewStaticMesh="PreviewStaticMesh"
+         RotationSceneComponent="RotationSceneComponent"
+         LightRays="LightRays"
+         Minigame_Spawner_Component="Minigame_Spawner_Component"
+         DropBox="DropBox"
+         Time Between Spawns=0.000000
+         Base Visible During Game=False
+         Time Before First Spawn=0.000000
+         VisibleInGameComponent="VisibleInGameComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="PointLight",Position=(X=-54000.000001,Y=0.000069,Z=875.012943),InitialIntensity=8.000000)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5954.229492
+         SavedActorGuid=000000000000000000000000A93F8F80
+         LabelOverride="TEST_ItemSpawner"
+         bHidden=True
+         bActorEnableCollision=False
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="TEST_ItemSpawner"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+

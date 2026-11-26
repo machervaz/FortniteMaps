@@ -13,7 +13,7 @@
 			"5622d7d7-d1ca-438f-8a48-1286a48e2471": "5622d7d7-d1ca-438f-8a48-1286a48e2471"
 		},
 		"bSuppressAutomaticVersePathAssignment": false,
-		"projectVersePath": ""
+		"projectVersePath": "/macdoug@fortnite.com/testMoudon01"
 	},
 	"compatibilityVersion": "43.10",
 	"requiredRedirectorStartingVersion": "43.10.60458657",
@@ -32,10 +32,10 @@
 	{
 		"matchmaking":
 		{
-			"maxPlayers": 16,
-			"maxTeamCount": 16,
-			"maxTeamSize": 16,
-			"maxSocialPartySize": 16,
+			"maxPlayers": 2,
+			"maxTeamCount": 2,
+			"maxTeamSize": 2,
+			"maxSocialPartySize": 2,
 			"allowJoinInProgress": true,
 			"allowSquadFillOption": false,
 			"islandQueuePrivacy": "Public",

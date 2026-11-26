@@ -1,0 +1,3 @@
+{'FACILE': 11, 'MOYEN': 6, 'DIFFICILE': 19, 'IMPOSSIBLE': 48}
+spatial: {False: 83, True: 1}
+total acteurs charges: 2608

@@ -1,0 +1,17 @@
+ZONE_1v1_Arme1 yaw=90
+ZONE_1v1_Arme2 yaw=90
+ZONE_1v1_Arme3 yaw=90
+ZONE_1v1_Arme4 yaw=90
+ZONE_1v1_Arme5 yaw=90
+ZONE_1v1_Arme6 yaw=90
+ZONE_1v1_Arme7 yaw=90
+ZONE_1v1_Arme8 yaw=90
+ZONE_1v1_Arme9 yaw=90
+ZONE_1v1_Arme10 yaw=90
+ZONE_1v1_Arme11 yaw=90
+ZONE_1v1_Arme12 yaw=90
+ZONE_1v1_Arme13 yaw=90
+ZONE_1v1_Arme14 yaw=90
+ZONE_1v1_Arme15 yaw=90
+ZONE_1v1_Arme16 yaw=90
+ZONE_1v1_Arme17 yaw=90

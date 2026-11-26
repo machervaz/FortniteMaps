@@ -1,0 +1,15 @@
+ajout au reset : True
+DIFFICILE deja la : 63
+DIFFICILE place prise : 4
+DIFFICILE reposee : 5
+FACILE deja la : 11
+FACILE place prise : 1
+FACILE reposee : 3
+IMPOSSIBLE deja la : 50
+IMPOSSIBLE place prise : 25
+IMPOSSIBLE reposee : 13
+MOYEN deja la : 31
+MOYEN place prise : 3
+MOYEN reposee : 3
+TOTAL reposees : 24
+TERMINE

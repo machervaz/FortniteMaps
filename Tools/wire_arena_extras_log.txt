@@ -1,0 +1,7 @@
+__verse_0xBB2BEDDA_ScoreBoard -> ZONE_1v1X_Score
+__verse_0xAF5B3348_ResetScoreButton -> ZONE_1v1X_ResetScoreButton
+__verse_0x3EC300EF_HealthButton -> ZONE_1v1X_HealthButton
+__verse_0x46878924_HealthBoard -> ZONE_1v1X_HealthBoard
+__verse_0xCE13F6CA_ArrivalPoint -> ZONE_1v1_Arrival
+__verse_0x5060C149_CountdownHUD -> ZONE_1v1X_CountdownHUD
+TERMINE

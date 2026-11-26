@@ -1,0 +1,16 @@
+PBWA_W1_Solid_C64 PBWA_W1_Solid_C (-1536,-23296,1152) valide=True
+PBWA_W1_Floor_C80 PBWA_W1_Floor_C (-1536,-24320,1536) valide=True
+PBWA_W1_RoofC_C17 PBWA_W1_RoofC_C (-1536,-24832,1536) valide=True
+PBWA_W1_Solid_C PBWA_W1_Solid_C (-1536,-25856,1536) valide=True
+PBWA_W1_Solid_C PBWA_W1_Solid_C (-1536,-26368,1536) valide=True
+PBWA_W1_Solid_C2 PBWA_W1_Solid_C (-1536,-27904,1152) valide=True
+PBWA_W1_Solid_C3 PBWA_W1_Solid_C (-1536,-28416,1152) valide=True
+PBWA_W1_Solid_C2 PBWA_W1_Solid_C (-1536,-29952,1536) valide=True
+PBWA_W1_Solid_C3 PBWA_W1_Solid_C (-1536,-30464,1152) valide=True
+PBWA_W1_Solid_C7 PBWA_W1_Solid_C (-1536,-30976,1152) valide=True
+PBWA_W1_Solid_C8 PBWA_W1_Solid_C (-1536,-31488,1152) valide=True
+PBWA_W1_RoofS_C6 PBWA_W1_RoofS_C (-512,-32000,1152) valide=True
+PBWA_W1_RoofS_C8 PBWA_W1_RoofS_C (-512,-34560,1536) valide=True
+PBWA_W1_StairW_C12 PBWA_W1_StairW_C (-512,-35584,1152) valide=True
+PBWA_W1_RoofS_C18 PBWA_W1_RoofS_C (-512,-36096,1152) valide=True
+{'PBWA_W1_Solid_C': 9, 'PBWA_W1_Floor_C': 3, 'PBWA_W1_RoofC_C': 29, 'PBWA_W1_RoofS_C': 28, 'PBWA_W1_StairW_C': 13, 'PBWA_W1_WindowSide_C': 2}

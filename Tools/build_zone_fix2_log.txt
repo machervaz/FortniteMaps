@@ -1,0 +1,9 @@
+BUILD_ReturnHolo -> x 18432
+BUILD_ReturnSocle -> x 18432
+BUILD_ReturnTitle -> x 18432
+BUILD_ReturnZone -> x 18432
+BUILD_Ramp-1 : y 24320..24846 z 1133..1536
+BUILD_Ramp1 : y 24832..25358 z 1133..1536
+BUILD_RampEdge-1 : y 24832..24848 z 1520..1536
+BUILD_RampEdge1 : y 25840..25856 z 1520..1536
+OK

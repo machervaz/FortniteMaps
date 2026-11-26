@@ -18,7 +18,7 @@ try:
         for a in eas.get_all_level_actors():
             lab = a.get_actor_label()
             p = a.get_actor_location()
-            if lab.startswith("ZONE_") or not (BOX[0] < p.x < BOX[1] and BOX[2] < p.y < BOX[3]):
+            if lab.startswith("ZONE_") or p.z < -10000 or not (BOX[0] < p.x < BOX[1] and BOX[2] < p.y < BOX[3]):
                 continue
             if isinstance(a, unreal.WorldSettings) or a.get_class().get_name() in ("WorldDataLayers", "LevelBounds"):
                 continue
